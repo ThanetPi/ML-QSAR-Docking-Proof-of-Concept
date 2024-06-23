@@ -1,0 +1,615 @@
+
+##########                                Name:          Compound 1
+##########                DOCK_Rotatable_Bonds:                   2
+##########                         Heavy_Atoms:                  11
+##########                    Molecular_Weight:              150.22
+##########                       Formal_Charge:         -9.9998e-05
+##########                     HBond_Acceptors:                   1
+##########                        HBond_Donors:                   1
+##########                    Descriptor_Score:           40.750885
+##########          Footprint_Similarity_Score:           11.991574
+##########                 desc_FPS_vdw_energy:          -22.106710
+##########                  desc_FPS_es_energy:           -1.826348
+##########              desc_FPS_vdw+es_energy:          -23.933060
+##########                  desc_FPS_num_hbond:                   2
+##########                    desc_FPS_vdw_fps:            9.859687
+##########                     desc_FPS_es_fps:            2.131887
+##########                     desc_FPS_hb_fps:            1.414214
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   7
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.759314
+##########       desc_HMS_num_unmtchd_hvy_atms:                  18
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.846270
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            3.370760
+
+@<TRIPOS>MOLECULE
+Compound 1
+ 25 25 1 0 0
+SMALL
+GASTEIGER
+
+
+@<TRIPOS>ATOM
+      1 O          21.3846    6.7098   38.2364 O.3     1  UNL1       -0.5065
+      2 C          22.2479    7.6438   38.7277 C.ar    1  UNL1        0.1205
+      3 C          23.3154    8.1350   37.9555 C.ar    1  UNL1       -0.0034
+      4 C          22.0376    8.1131   40.0241 C.ar    1  UNL1       -0.0170
+      5 C          24.1591    9.0975   38.5244 C.ar    1  UNL1       -0.0546
+      6 C          23.5185    7.6758   36.5045 C.3     1  UNL1       -0.0181
+      7 C          22.8885    9.0667   40.5810 C.ar    1  UNL1       -0.0470
+      8 C          23.9542    9.5509   39.8257 C.ar    1  UNL1       -0.0583
+      9 C          22.8437    8.6576   35.5244 C.3     1  UNL1       -0.0585
+     10 C          24.9990    7.4691   36.1073 C.3     1  UNL1       -0.0585
+     11 C          22.6614    9.5832   41.9906 C.3     1  UNL1       -0.0396
+     12 H          20.7367    7.1372   37.6482 H       1  UNL1        0.2921
+     13 H          21.1979    7.7309   40.6010 H       1  UNL1        0.0657
+     14 H          24.9849    9.5168   37.9585 H       1  UNL1        0.0622
+     15 H          23.0417    6.7031   36.3737 H       1  UNL1        0.0345
+     16 H          24.6255   10.2956   40.2470 H       1  UNL1        0.0620
+     17 H          23.2857    9.6535   35.6069 H       1  UNL1        0.0235
+     18 H          21.7757    8.7383   35.7401 H       1  UNL1        0.0235
+     19 H          22.9562    8.3139   34.4935 H       1  UNL1        0.0235
+     20 H          25.5454    8.4140   36.0815 H       1  UNL1        0.0235
+     21 H          25.0640    7.0236   35.1115 H       1  UNL1        0.0235
+     22 H          25.4953    6.7962   36.8109 H       1  UNL1        0.0235
+     23 H          21.7497    9.1665   42.4248 H       1  UNL1        0.0278
+     24 H          22.5688   10.6716   41.9864 H       1  UNL1        0.0278
+     25 H          23.5014    9.3119   42.6346 H       1  UNL1        0.0278
+@<TRIPOS>BOND
+     1     1     2    1
+     2     2     3   ar
+     3     2     4   ar
+     4     3     5   ar
+     5     3     6    1
+     6     4     7   ar
+     7     5     8   ar
+     8     6     9    1
+     9     6    10    1
+    10     7    11    1
+    11     7     8   ar
+    12     1    12    1
+    13     4    13    1
+    14     5    14    1
+    15     6    15    1
+    16     8    16    1
+    17     9    17    1
+    18     9    18    1
+    19     9    19    1
+    20    10    20    1
+    21    10    21    1
+    22    10    22    1
+    23    11    23    1
+    24    11    24    1
+    25    11    25    1
+@<TRIPOS>SUBSTRUCTURE
+     1 UNL1        1 TEMP              0 ****  ****    0 ROOT
+
+
+##########                                Name:          Compound 1
+##########                DOCK_Rotatable_Bonds:                   2
+##########                         Heavy_Atoms:                  11
+##########                    Molecular_Weight:              150.22
+##########                       Formal_Charge:         -9.9998e-05
+##########                     HBond_Acceptors:                   1
+##########                        HBond_Donors:                   1
+##########                    Descriptor_Score:           41.001190
+##########          Footprint_Similarity_Score:           12.393593
+##########                 desc_FPS_vdw_energy:          -23.066080
+##########                  desc_FPS_es_energy:           -0.697021
+##########              desc_FPS_vdw+es_energy:          -23.763102
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:           10.290031
+##########                     desc_FPS_es_fps:            2.103562
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   7
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.607599
+##########       desc_HMS_num_unmtchd_hvy_atms:                  18
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.694556
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            3.412447
+
+@<TRIPOS>MOLECULE
+Compound 1
+ 25 25 1 0 0
+SMALL
+GASTEIGER
+
+
+@<TRIPOS>ATOM
+      1 O          21.6768    6.6744   38.6773 O.3     1  UNL1       -0.5065
+      2 C          22.4143    7.7555   39.0596 C.ar    1  UNL1        0.1205
+      3 C          23.3657    8.3356   38.2020 C.ar    1  UNL1       -0.0034
+      4 C          22.1920    8.2843   40.3309 C.ar    1  UNL1       -0.0170
+      5 C          24.0830    9.4479   38.6606 C.ar    1  UNL1       -0.0546
+      6 C          23.5730    7.8043   36.7764 C.3     1  UNL1       -0.0181
+      7 C          22.9171    9.3879   40.7778 C.ar    1  UNL1       -0.0470
+      8 C          23.8684    9.9621   39.9376 C.ar    1  UNL1       -0.0583
+      9 C          22.6863    8.5736   35.7756 C.3     1  UNL1       -0.0585
+     10 C          25.0447    7.8256   36.3007 C.3     1  UNL1       -0.0585
+     11 C          22.6760    9.9692   42.1596 C.3     1  UNL1       -0.0396
+     12 H          21.9991    6.3421   37.8204 H       1  UNL1        0.2921
+     13 H          21.4417    7.8299   40.9748 H       1  UNL1        0.0657
+     14 H          24.8144    9.9377   38.0259 H       1  UNL1        0.0622
+     15 H          23.2700    6.7566   36.7442 H       1  UNL1        0.0345
+     16 H          24.4409   10.8239   40.2727 H       1  UNL1        0.0620
+     17 H          22.9485    9.6343   35.7602 H       1  UNL1        0.0235
+     18 H          21.6332    8.4855   36.0529 H       1  UNL1        0.0235
+     19 H          22.8053    8.1736   34.7659 H       1  UNL1        0.0235
+     20 H          25.4132    8.8456   36.1745 H       1  UNL1        0.0235
+     21 H          25.1369    7.3201   35.3362 H       1  UNL1        0.0235
+     22 H          25.6873    7.3067   37.0162 H       1  UNL1        0.0235
+     23 H          21.8536    9.4600   42.6673 H       1  UNL1        0.0278
+     24 H          22.4256   11.0300   42.0873 H       1  UNL1        0.0278
+     25 H          23.5726    9.8686   42.7759 H       1  UNL1        0.0278
+@<TRIPOS>BOND
+     1     1     2    1
+     2     2     3   ar
+     3     2     4   ar
+     4     3     5   ar
+     5     3     6    1
+     6     4     7   ar
+     7     5     8   ar
+     8     6     9    1
+     9     6    10    1
+    10     7    11    1
+    11     7     8   ar
+    12     1    12    1
+    13     4    13    1
+    14     5    14    1
+    15     6    15    1
+    16     8    16    1
+    17     9    17    1
+    18     9    18    1
+    19     9    19    1
+    20    10    20    1
+    21    10    21    1
+    22    10    22    1
+    23    11    23    1
+    24    11    24    1
+    25    11    25    1
+@<TRIPOS>SUBSTRUCTURE
+     1 UNL1        1 TEMP              0 ****  ****    0 ROOT
+
+
+##########                                Name:          Compound 1
+##########                DOCK_Rotatable_Bonds:                   2
+##########                         Heavy_Atoms:                  11
+##########                    Molecular_Weight:              150.22
+##########                       Formal_Charge:         -9.9998e-05
+##########                     HBond_Acceptors:                   1
+##########                        HBond_Donors:                   1
+##########                    Descriptor_Score:           40.931152
+##########          Footprint_Similarity_Score:           12.242557
+##########                 desc_FPS_vdw_energy:          -22.932535
+##########                  desc_FPS_es_energy:           -0.743753
+##########              desc_FPS_vdw+es_energy:          -23.676289
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:           10.088101
+##########                     desc_FPS_es_fps:            2.154456
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   7
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.688595
+##########       desc_HMS_num_unmtchd_hvy_atms:                  18
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.775551
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            3.300457
+
+@<TRIPOS>MOLECULE
+Compound 1
+ 25 25 1 0 0
+SMALL
+GASTEIGER
+
+
+@<TRIPOS>ATOM
+      1 O          21.6129    6.6871   38.6805 O.3     1  UNL1       -0.5065
+      2 C          22.4198    7.7143   39.0710 C.ar    1  UNL1        0.1205
+      3 C          23.4130    8.2318   38.2208 C.ar    1  UNL1       -0.0034
+      4 C          22.2267    8.2523   40.3433 C.ar    1  UNL1       -0.0170
+      5 C          24.2015    9.2911   38.6878 C.ar    1  UNL1       -0.0546
+      6 C          23.5918    7.6929   36.7942 C.3     1  UNL1       -0.0181
+      7 C          23.0226    9.3025   40.7985 C.ar    1  UNL1       -0.0470
+      8 C          24.0152    9.8140   39.9657 C.ar    1  UNL1       -0.0583
+      9 C          22.9324    8.6389   35.7695 C.3     1  UNL1       -0.0585
+     10 C          25.0632    7.4292   36.3969 C.3     1  UNL1       -0.0585
+     11 C          22.8137    9.8937   42.1813 C.3     1  UNL1       -0.0396
+     12 H          22.0913    6.1106   38.0582 H       1  UNL1        0.2921
+     13 H          21.4439    7.8474   40.9814 H       1  UNL1        0.0657
+     14 H          24.9680    9.7326   38.0589 H       1  UNL1        0.0622
+     15 H          23.0903    6.7268   36.7180 H       1  UNL1        0.0345
+     16 H          24.6429   10.6337   40.3073 H       1  UNL1        0.0620
+     17 H          23.3992    9.6265   35.7965 H       1  UNL1        0.0235
+     18 H          21.8686    8.7572   35.9890 H       1  UNL1        0.0235
+     19 H          23.0271    8.2395   34.7570 H       1  UNL1        0.0235
+     20 H          25.6323    8.3577   36.3177 H       1  UNL1        0.0235
+     21 H          25.1083    6.9311   35.4252 H       1  UNL1        0.0235
+     22 H          25.5493    6.7816   37.1308 H       1  UNL1        0.0235
+     23 H          21.9559    9.4396   42.6827 H       1  UNL1        0.0278
+     24 H          22.6361   10.9693   42.1120 H       1  UNL1        0.0278
+     25 H          23.6980    9.7304   42.8020 H       1  UNL1        0.0278
+@<TRIPOS>BOND
+     1     1     2    1
+     2     2     3   ar
+     3     2     4   ar
+     4     3     5   ar
+     5     3     6    1
+     6     4     7   ar
+     7     5     8   ar
+     8     6     9    1
+     9     6    10    1
+    10     7    11    1
+    11     7     8   ar
+    12     1    12    1
+    13     4    13    1
+    14     5    14    1
+    15     6    15    1
+    16     8    16    1
+    17     9    17    1
+    18     9    18    1
+    19     9    19    1
+    20    10    20    1
+    21    10    21    1
+    22    10    22    1
+    23    11    23    1
+    24    11    24    1
+    25    11    25    1
+@<TRIPOS>SUBSTRUCTURE
+     1 UNL1        1 TEMP              0 ****  ****    0 ROOT
+
+
+##########                                Name:          Compound 2
+##########                DOCK_Rotatable_Bonds:                   1
+##########                         Heavy_Atoms:                  13
+##########                    Molecular_Weight:             174.156
+##########                       Formal_Charge:         0.000100043
+##########                     HBond_Acceptors:                   3
+##########                        HBond_Donors:                   1
+##########                    Descriptor_Score:           39.871567
+##########          Footprint_Similarity_Score:           11.669647
+##########                 desc_FPS_vdw_energy:          -23.188631
+##########                  desc_FPS_es_energy:           -1.562581
+##########              desc_FPS_vdw+es_energy:          -24.751211
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:            9.744749
+##########                     desc_FPS_es_fps:            1.924898
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   6
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.201919
+##########       desc_HMS_num_unmtchd_hvy_atms:                  16
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.723658
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            1.826834
+
+@<TRIPOS>MOLECULE
+Compound 2
+ 19 20 1 0 0
+SMALL
+GASTEIGER
+
+
+@<TRIPOS>ATOM
+      1 O          21.6186    6.6613   38.6062 O.2     1  UNL1       -0.2832
+      2 C          22.2479    7.7023   38.6281 C.2     1  UNL1        0.2331
+      3 C          22.9030    8.2262   37.3188 C.2     1  UNL1        0.2293
+      4 C          22.4192    8.5085   39.8737 C.ar    1  UNL1        0.0361
+      5 O          22.7974    7.6148   36.2733 O.2     1  UNL1       -0.2837
+      6 C          23.6346    9.4879   37.4682 C.2     1  UNL1        0.0310
+      7 C          23.1531    9.7042   39.8576 C.ar    1  UNL1        0.0275
+      8 C          21.8376    8.0585   41.0644 C.ar    1  UNL1       -0.0501
+      9 C          23.7718   10.2042   38.6388 C.2     1  UNL1        0.1284
+     10 C          23.2850   10.4259   41.0540 C.ar    1  UNL1       -0.0504
+     11 C          21.9781    8.7867   42.2409 C.ar    1  UNL1       -0.0610
+     12 O          24.4618   11.3612   38.7018 O.2     1  UNL1       -0.5060
+     13 C          22.7031    9.9719   42.2346 C.ar    1  UNL1       -0.0611
+     14 H          24.0874    9.8439   36.5485 H       1  UNL1        0.0694
+     15 H          21.2677    7.1321   41.0821 H       1  UNL1        0.0625
+     16 H          23.8456   11.3572   41.0841 H       1  UNL1        0.0625
+     17 H          21.5223    8.4299   43.1616 H       1  UNL1        0.0618
+     18 H          24.4186   11.6904   39.6180 H       1  UNL1        0.2922
+     19 H          22.8161   10.5454   43.1517 H       1  UNL1        0.0618
+@<TRIPOS>BOND
+     1     1     2    2
+     2     2     3    1
+     3     2     4    1
+     4     3     5    2
+     5     3     6    1
+     6     4     7   ar
+     7     4     8   ar
+     8     6     9    2
+     9     7    10   ar
+    10     8    11   ar
+    11     9    12    1
+    12    10    13   ar
+    13     7     9    1
+    14    11    13   ar
+    15     6    14    1
+    16     8    15    1
+    17    10    16    1
+    18    11    17    1
+    19    12    18    1
+    20    13    19    1
+@<TRIPOS>SUBSTRUCTURE
+     1 UNL1        1 TEMP              0 ****  ****    0 ROOT
+
+
+##########                                Name:          Compound 2
+##########                DOCK_Rotatable_Bonds:                   1
+##########                         Heavy_Atoms:                  13
+##########                    Molecular_Weight:             174.156
+##########                       Formal_Charge:         0.000100043
+##########                     HBond_Acceptors:                   3
+##########                        HBond_Donors:                   1
+##########                    Descriptor_Score:           39.787361
+##########          Footprint_Similarity_Score:           11.641764
+##########                 desc_FPS_vdw_energy:          -23.320101
+##########                  desc_FPS_es_energy:           -1.489860
+##########              desc_FPS_vdw+es_energy:          -24.809961
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:            9.733845
+##########                     desc_FPS_es_fps:            1.907918
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   6
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.145598
+##########       desc_HMS_num_unmtchd_hvy_atms:                  16
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.667338
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            1.826868
+
+@<TRIPOS>MOLECULE
+Compound 2
+ 19 20 1 0 0
+SMALL
+GASTEIGER
+
+
+@<TRIPOS>ATOM
+      1 O          21.6497    6.6981   38.5552 O.2     1  UNL1       -0.2832
+      2 C          22.2500    7.7546   38.6150 C.2     1  UNL1        0.2331
+      3 C          22.9245    8.3232   37.3346 C.2     1  UNL1        0.2293
+      4 C          22.3672    8.5384   39.8810 C.ar    1  UNL1        0.0361
+      5 O          22.8625    7.7314   36.2743 O.2     1  UNL1       -0.2837
+      6 C          23.6178    9.6002   37.5291 C.2     1  UNL1        0.0310
+      7 C          23.0689    9.7532   39.9088 C.ar    1  UNL1        0.0275
+      8 C          21.7672    8.0482   41.0464 C.ar    1  UNL1       -0.0501
+      9 C          23.7053   10.2949   38.7173 C.2     1  UNL1        0.1284
+     10 C          23.1504   10.4526   41.1228 C.ar    1  UNL1       -0.0504
+     11 C          21.8576    8.7547   42.2409 C.ar    1  UNL1       -0.0610
+     12 O          24.3621   11.4681   38.8222 O.2     1  UNL1       -0.5060
+     13 C          22.5504    9.9585   42.2781 C.ar    1  UNL1       -0.0611
+     14 H          24.0847    9.9874   36.6292 H       1  UNL1        0.0694
+     15 H          21.2222    7.1070   41.0300 H       1  UNL1        0.0625
+     16 H          23.6847   11.3974   41.1868 H       1  UNL1        0.0625
+     17 H          21.3878    8.3667   43.1417 H       1  UNL1        0.0618
+     18 H          24.2738   11.7839   39.7400 H       1  UNL1        0.2922
+     19 H          22.6242   10.5152   43.2094 H       1  UNL1        0.0618
+@<TRIPOS>BOND
+     1     1     2    2
+     2     2     3    1
+     3     2     4    1
+     4     3     5    2
+     5     3     6    1
+     6     4     7   ar
+     7     4     8   ar
+     8     6     9    2
+     9     7    10   ar
+    10     8    11   ar
+    11     9    12    1
+    12    10    13   ar
+    13     7     9    1
+    14    11    13   ar
+    15     6    14    1
+    16     8    15    1
+    17    10    16    1
+    18    11    17    1
+    19    12    18    1
+    20    13    19    1
+@<TRIPOS>SUBSTRUCTURE
+     1 UNL1        1 TEMP              0 ****  ****    0 ROOT
+
+
+##########                                Name:          Compound 2
+##########                DOCK_Rotatable_Bonds:                   1
+##########                         Heavy_Atoms:                  13
+##########                    Molecular_Weight:             174.156
+##########                       Formal_Charge:         0.000100043
+##########                     HBond_Acceptors:                   3
+##########                        HBond_Donors:                   1
+##########                    Descriptor_Score:           39.828163
+##########          Footprint_Similarity_Score:           11.660749
+##########                 desc_FPS_vdw_energy:          -23.305693
+##########                  desc_FPS_es_energy:           -1.188110
+##########              desc_FPS_vdw+es_energy:          -24.493803
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:            9.747264
+##########                     desc_FPS_es_fps:            1.913486
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   6
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.167416
+##########       desc_HMS_num_unmtchd_hvy_atms:                  16
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.689155
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            1.827159
+
+@<TRIPOS>MOLECULE
+Compound 2
+ 19 20 1 0 0
+SMALL
+GASTEIGER
+
+
+@<TRIPOS>ATOM
+      1 O          21.6167    6.6258   38.6734 O.2     1  UNL1       -0.2832
+      2 C          22.2256    7.6790   38.6737 C.2     1  UNL1        0.2331
+      3 C          22.8565    8.1967   37.3502 C.2     1  UNL1        0.2293
+      4 C          22.3940    8.5063   39.9059 C.ar    1  UNL1        0.0361
+      5 O          22.7521    7.5683   36.3146 O.2     1  UNL1       -0.2837
+      6 C          23.5646    9.4745   37.4738 C.2     1  UNL1        0.0310
+      7 C          23.1040    9.7158   39.8649 C.ar    1  UNL1        0.0275
+      8 C          21.8338    8.0622   41.1090 C.ar    1  UNL1       -0.0501
+      9 C          23.6999   10.2101   38.6325 C.2     1  UNL1        0.1284
+     10 C          23.2342   10.4571   41.0494 C.ar    1  UNL1       -0.0504
+     11 C          21.9722    8.8099   42.2735 C.ar    1  UNL1       -0.0610
+     12 O          24.3676   11.3811   38.6716 O.2     1  UNL1       -0.5060
+     13 C          22.6736   10.0088   42.2426 C.ar    1  UNL1       -0.0611
+     14 H          24.0008    9.8260   36.5443 H       1  UNL1        0.0694
+     15 H          21.2825    7.1252   41.1459 H       1  UNL1        0.0625
+     16 H          23.7766   11.3994   41.0602 H       1  UNL1        0.0625
+     17 H          21.5332    8.4575   43.2039 H       1  UNL1        0.0618
+     18 H          24.7287   11.5541   37.7831 H       1  UNL1        0.2922
+     19 H          22.7850   10.5975   43.1502 H       1  UNL1        0.0618
+@<TRIPOS>BOND
+     1     1     2    2
+     2     2     3    1
+     3     2     4    1
+     4     3     5    2
+     5     3     6    1
+     6     4     7   ar
+     7     4     8   ar
+     8     6     9    2
+     9     7    10   ar
+    10     8    11   ar
+    11     9    12    1
+    12    10    13   ar
+    13     7     9    1
+    14    11    13   ar
+    15     6    14    1
+    16     8    15    1
+    17    10    16    1
+    18    11    17    1
+    19    12    18    1
+    20    13    19    1
+@<TRIPOS>SUBSTRUCTURE
+     1 UNL1        1 TEMP              0 ****  ****    0 ROOT
+

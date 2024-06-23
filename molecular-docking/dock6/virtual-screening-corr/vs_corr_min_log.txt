@@ -1,0 +1,219 @@
+dock6 -i vs_min.in
+
+
+
+--------------------------------------
+DOCK v6.10
+
+Released January 2023
+Copyright UCSF
+--------------------------------------
+
+
+Conformational Sampling Parameters
+------------------------------------------------------------------------------------------
+conformer_search_type                                        rigid
+
+Internal Energy Parameters
+------------------------------------------------------------------------------------------
+use_internal_energy                                          yes
+internal_energy_rep_exp                                      12
+internal_energy_cutoff                                       100
+Note: Internal energy only includes repulsive VDW for growth and/or minimization.
+
+Molecule Library Input Parameters
+------------------------------------------------------------------------------------------
+ligand_atom_file                                             ../09_VS_corr/vs.out_scored.mol2
+limit_max_ligands                                            no
+skip_molecule                                                no
+read_mol_solvation                                           no
+calculate_rmsd                                               no
+
+Database Filter Parameters
+------------------------------------------------------------------------------------------
+use_database_filter                                          no
+
+Orient Ligand Parameters
+------------------------------------------------------------------------------------------
+orient_ligand                                                no
+
+Bump Filter Parameters
+------------------------------------------------------------------------------------------
+bump_filter                                                  no
+
+Master Score Parameters
+------------------------------------------------------------------------------------------
+score_molecules                                              yes
+
+Contact Score Parameters
+------------------------------------------------------------------------------------------
+contact_score_primary                                        no
+
+Grid Score Parameters
+------------------------------------------------------------------------------------------
+grid_score_primary                                           no
+
+MultiGrid Score Parameters
+------------------------------------------------------------------------------------------
+multigrid_score_primary                                      no
+
+Dock3.5 Score Parameters
+------------------------------------------------------------------------------------------
+dock3.5_score_primary                                        no
+
+Continuous Energy Score Parameters
+------------------------------------------------------------------------------------------
+continuous_score_primary                                     yes
+cont_score_rec_filename                                      ../01_structure/rec_charged.mol2
+cont_score_att_exp                                           6
+cont_score_rep_exp                                           12
+cont_score_rep_rad_scale                                     1
+cont_score_use_dist_dep_dielectric                           yes
+cont_score_dielectric                                        4.0
+cont_score_vdw_scale                                         1.0
+cont_score_es_scale                                          1.0
+
+Footprint Similarity Score Parameters
+------------------------------------------------------------------------------------------
+
+Pharmacophore Similarity Score Parameters
+------------------------------------------------------------------------------------------
+
+Hbond Energy Score Parameters
+------------------------------------------------------------------------------------------
+
+Internal Energy Score Parameters
+------------------------------------------------------------------------------------------
+
+Descriptor Score Parameters
+------------------------------------------------------------------------------------------
+
+Zou GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+
+Hawkins GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+
+SASA Score Parameters
+------------------------------------------------------------------------------------------
+
+Amber Score Parameters
+------------------------------------------------------------------------------------------
+
+Simplex Minimization Parameters
+------------------------------------------------------------------------------------------
+minimize_ligand                                              yes
+simplex_max_iterations                                       1000
+simplex_tors_premin_iterations                               0
+simplex_max_cycles                                           1.0
+simplex_score_converge                                       0.1
+simplex_cycle_converge                                       1.0
+simplex_trans_step                                           1.0
+simplex_rot_step                                             0.1
+simplex_tors_step                                            10.0
+simplex_random_seed                                          0
+simplex_restraint_min                                        no
+
+Atom Typing Parameters
+------------------------------------------------------------------------------------------
+atom_model                                                   all
+vdw_defn_file                                                /Users/thanetpitakbut/Downloads/dock6.10/parameters/vdw_AMBER_parm99.defn
+flex_defn_file                                               /Users/thanetpitakbut/Downloads/dock6.10/parameters/flex.defn
+flex_drive_file                                              /Users/thanetpitakbut/Downloads/dock6.10/parameters/flex_drive.tbl
+
+Molecule Library Output Parameters
+------------------------------------------------------------------------------------------
+ligand_outfile_prefix                                        vs.out_scored.min
+write_orientations                                           no
+num_scored_conformers                                        1
+rank_ligands                                                 no
+------------------------------------------------------------------------------------------
+Initializing Library File Routines...
+
+-----------------------------------
+Molecule: Compound 1
+
+ Elapsed time for docking:	0.136 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.432583
+               Continuous_vdw_energy:          -23.034668
+                Continuous_es_energy:           -1.397915
+           Internal_energy_repulsive:            3.371012
+
+-----------------------------------
+Molecule: Compound 1
+
+ Elapsed time for docking:	0.142 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.020203
+               Continuous_vdw_energy:          -23.301935
+                Continuous_es_energy:           -0.718267
+           Internal_energy_repulsive:            3.436621
+
+-----------------------------------
+Molecule: Compound 1
+
+ Elapsed time for docking:	0.130 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.964083
+               Continuous_vdw_energy:          -23.143068
+                Continuous_es_energy:           -0.821014
+           Internal_energy_repulsive:            3.302904
+
+-----------------------------------
+Molecule: Compound 2
+
+ Elapsed time for docking:	0.082 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.940033
+               Continuous_vdw_energy:          -23.433142
+                Continuous_es_energy:           -1.506892
+           Internal_energy_repulsive:            1.826846
+
+-----------------------------------
+Molecule: Compound 2
+
+ Elapsed time for docking:	0.074 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.098757
+               Continuous_vdw_energy:          -23.721815
+                Continuous_es_energy:           -1.376942
+           Internal_energy_repulsive:            1.826869
+
+-----------------------------------
+Molecule: Compound 2
+
+ Elapsed time for docking:	0.074 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.803267
+               Continuous_vdw_energy:          -23.636349
+                Continuous_es_energy:           -1.166918
+           Internal_energy_repulsive:            1.827155
+
+
+6 Molecules Processed
+Total elapsed time:	0.941 seconds

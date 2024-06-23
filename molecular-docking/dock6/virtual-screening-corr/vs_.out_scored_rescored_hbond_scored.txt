@@ -1,0 +1,265 @@
+####################################
+###  Molecule: Compound 1
+####################################
+
+##########                    Descriptor_Score:           40.750885
+##########          Footprint_Similarity_Score:           11.991574
+##########                 desc_FPS_vdw_energy:          -22.106710
+##########                  desc_FPS_es_energy:           -1.826348
+##########              desc_FPS_vdw+es_energy:          -23.933060
+##########                  desc_FPS_num_hbond:                   2
+##########                    desc_FPS_vdw_fps:            9.859687
+##########                     desc_FPS_es_fps:            2.131887
+##########                     desc_FPS_hb_fps:            1.414214
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   7
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.759314
+##########       desc_HMS_num_unmtchd_hvy_atms:                  18
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.846270
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            3.370760
+
+hbond detected: GLU (143) N.am H---UNL1 (1) O.3 1.81283 169.844
+hbond detected: UNL1 (1) O.3 H---ASP (175) O.2 2.18047 162.421
+
+####################################
+###  Molecule: Compound 1
+####################################
+
+##########                    Descriptor_Score:           41.001190
+##########          Footprint_Similarity_Score:           12.393593
+##########                 desc_FPS_vdw_energy:          -23.066080
+##########                  desc_FPS_es_energy:           -0.697021
+##########              desc_FPS_vdw+es_energy:          -23.763102
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:           10.290031
+##########                     desc_FPS_es_fps:            2.103562
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   7
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.607599
+##########       desc_HMS_num_unmtchd_hvy_atms:                  18
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.694556
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            3.412447
+
+hbond detected: GLU (143) N.am H---UNL1 (1) O.3 1.96616 166.984
+
+####################################
+###  Molecule: Compound 1
+####################################
+
+##########                    Descriptor_Score:           40.931152
+##########          Footprint_Similarity_Score:           12.242557
+##########                 desc_FPS_vdw_energy:          -22.932535
+##########                  desc_FPS_es_energy:           -0.743753
+##########              desc_FPS_vdw+es_energy:          -23.676289
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:           10.088101
+##########                     desc_FPS_es_fps:            2.154456
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   7
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.688595
+##########       desc_HMS_num_unmtchd_hvy_atms:                  18
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.775551
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            3.300457
+
+hbond detected: GLU (143) N.am H---UNL1 (1) O.3 1.93755 168.517
+
+####################################
+###  Molecule: Compound 2
+####################################
+
+##########                    Descriptor_Score:           39.871567
+##########          Footprint_Similarity_Score:           11.669647
+##########                 desc_FPS_vdw_energy:          -23.188631
+##########                  desc_FPS_es_energy:           -1.562581
+##########              desc_FPS_vdw+es_energy:          -24.751211
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:            9.744749
+##########                     desc_FPS_es_fps:            1.924898
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   6
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.201919
+##########       desc_HMS_num_unmtchd_hvy_atms:                  16
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.723658
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            1.826834
+
+hbond detected: GLU (143) N.am H---UNL1 (1) O.2 1.91093 168.53
+
+####################################
+###  Molecule: Compound 2
+####################################
+
+##########                    Descriptor_Score:           39.787361
+##########          Footprint_Similarity_Score:           11.641764
+##########                 desc_FPS_vdw_energy:          -23.320101
+##########                  desc_FPS_es_energy:           -1.489860
+##########              desc_FPS_vdw+es_energy:          -24.809961
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:            9.733845
+##########                     desc_FPS_es_fps:            1.907918
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   6
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.145598
+##########       desc_HMS_num_unmtchd_hvy_atms:                  16
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.667338
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            1.826868
+
+hbond detected: GLU (143) N.am H---UNL1 (1) O.2 1.95379 168.662
+
+####################################
+###  Molecule: Compound 2
+####################################
+
+##########                    Descriptor_Score:           39.828163
+##########          Footprint_Similarity_Score:           11.660749
+##########                 desc_FPS_vdw_energy:          -23.305693
+##########                  desc_FPS_es_energy:           -1.188110
+##########              desc_FPS_vdw+es_energy:          -24.493803
+##########                  desc_FPS_num_hbond:                   1
+##########                    desc_FPS_vdw_fps:            9.747264
+##########                     desc_FPS_es_fps:            1.913486
+##########                     desc_FPS_hb_fps:            1.000000
+##########              desc_FPS_vdw_fp_numres:                 219
+##########               desc_FPS_es_fp_numres:                 219
+##########               desc_FPS_hb_fp_numres:                 219
+##########                 Pharmacophore_Score:           20.000000
+##########              desc_FMS_num_match_tot:                   0
+##########              desc_FMS_max_match_ref:                  10
+##########              desc_FMS_max_match_mol:                   6
+##########                 desc_FMS_match_rate:            4.000000
+##########                desc_FMS_match_resid:            0.000000
+##########    desc_FMS_num_hydrophobic_matched:                   0
+##########          desc_FMS_num_donor_matched:                   0
+##########       desc_FMS_num_acceptor_matched:                   0
+##########       desc_FMS_num_aromatic_matched:                   0
+##########       desc_FMS_num_positive_matched:                   0
+##########       desc_FMS_num_negative_matched:                   0
+##########           desc_FMS_num_ring_matched:                   0
+########## Hungarian_Matching_Similarity_Score:            8.167416
+##########       desc_HMS_num_unmtchd_hvy_atms:                  16
+##########           desc_HMS_num_ref_hvy_atms:                  23
+##########        desc_HMS_rmsd_mtchd_hvy_atms:            9.689155
+##########               Property_Volume_Score:            0.000000
+##########               desc_VOS_geometric_vo:            0.000000
+##########                desc_VOS_hvy_atom_vo:            0.000000
+##########            desc_VOS_pos_chrg_atm_vo:            0.000000
+##########            desc_VOS_neg_chrg_atm_vo:            0.000000
+##########         desc_VOS_hydrophobic_atm_vo:            0.000000
+##########         desc_VOS_hydrophilic_atm_vo:            0.000000
+##########           Internal_energy_repulsive:            1.827159
+
+hbond detected: GLU (143) N.am H---UNL1 (1) O.2 1.89091 167.38
+

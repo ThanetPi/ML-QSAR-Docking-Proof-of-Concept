@@ -1,0 +1,6 @@
+##########                    Descriptor_Score:           40,750885
+##########                    Descriptor_Score:           41,001190
+##########                    Descriptor_Score:           40,931152
+##########                    Descriptor_Score:           39,871567
+##########                    Descriptor_Score:           39,787361
+##########                    Descriptor_Score:           39,828163
