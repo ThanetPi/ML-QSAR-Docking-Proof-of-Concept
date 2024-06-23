@@ -1,0 +1,90 @@
+No,FARMBIOMOL ID.,% inhibition,SD,SE,Smile,Name
+0,1,8.74,4.85,1.62,CC1=CC(=C(C=C1)C(C)C)O,thymol
+1,4,0,0,0,C1=CC=C(C(=C1)O)O  ,catechol
+2,5,0,0,0,CC1=C2C(=CC(=C1C(=O)O)O)C(=O)C3=C(C2=O)C(=C(C(=C3O)O)C4C(C(C(C(O4)CO)O)O)O)O  ,carmine
+3,6,29.93,15.57,5.19,C1=CC=C2C(=C1)C=CC(=O)O2  ,coumarin
+4,7,0,0,0, C1=CC=C2C(=C1)C=CC(=N2)C(=O)O  ,quinaldic acid
+5,8,12.02,14.49,4.83,C1=CC=C(C=C1)/C=C/C(=O)O  ,Trans-cinnamic acid
+6,9,84.57,2.98,0.99,C1[CH]([CH]([CH](C[C]1(C(=O)O)O)OC(=O)/C=C/C2=CC(=C(C=C2)O)O)O)O  ,chlorogenic acid
+7,12,20.57,8.89,2.96,CN1C=NC2=C1C(=O)N(C(=O)N2C)C  ,caffeine anhydrous
+8,13,0,0,0,C1=CC(=C(C=C1/C=C/C(=O)O)O)O  ,caffeic acid
+9,15,0,0,0,C1=C2C3=C(C(=C1O)O)OC(=O)C4=CC(=C(C(=C43)OC2=O)O)O ,ellagic acid
+10,16,0,0,0,C1=CC(=O)OC2=CC(=C(C=C21)O[CH]3[CH]([CH]([CH]([CH](O3)CO)O)O)O)O,esculin
+11,17,0,0,0,COC1=C(C=CC(=C1)/C=C/C(=O)O)O  ,ferulic acid
+12,18,72.87,10.39,3.46,C1=C(C=C(C(=C1O)O)O)C(=O)OC[CH]2[CH]([CH]([CH]([CH](O2)OC(=O)C3=CC(=C(C(=C3)O)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O)O  ,tannine
+13,19,9.7,9.89,3.3,C[CH]1[CH]([CH]([CH]([CH](O1)OC[CH]2[CH]([CH]([CH]([CH](O2)OC3=CC(=C4C(=O)C[CH](OC4=C3)C5=CC(=C(C=C5)OC)O)O)O)O)O)O)O)O  ,hesperidin
+14,20,0,0,0,COC1=CC=C(C=C1)O  ,hydroquinone monomethyl ether
+15,21,10.68,12.58,4.19,C1=CC(=CC=C1C(=O)O)O  ,4-hydroxylbenzoic acid
+16,22,0,0,0,C1=CC=C(C(=C1)C2=CC(=O)C3=CC=CC=C3O2)O ,2'-hydroxylflavone
+17,23,49.87,8.8,2.93,C1=CC(=CC=C1O)O  ,hydroquinone
+18,24,100,0,0,C1=CC=C2C(=C1)C(=CC(=O)C2=O)O,2-hydroxy-1.4-naphtoquinone
+19,25,7.66,5.53,1.84,COC(=O)C1=CC=C(C=C1)O,methyl-4-hydroxybenzoate
+20,27,8.64,7.8,2.6,C1=CC(=CC(=C1)O)C(=O)O  ,m-Hydroxy-benzoic acid
+21,28,0,0,0,CC1=CC(=O)C2=C(C3=C(C(=C2O1)OC)OC=C3)OC,Khellin
+22,29,21.25,16.49,5.5,C1=C(OC=C(C1=O)O)CO ,Kojic acid
+23,32,16.86,8.02,2.67,COC1=CC=CC=C1C(=O)OC,Methyl 2-Methoxybenzoate
+24,33,0,0,0,CCN1C=C(C(=O)C2=C1N=C(C=C2)C)C(=O)O,Nalidixic acid
+25,34,0,0,0,CN1CCC2=CC3=C(C(=C2[CH]1[CH]4C5=C(C(=C(C=C5)OC)OC)C(=O)O4)OC)OCO3,Narcotine Hydrochloride
+26,35,0,0,0,C1=CC(=CC2=C1C=CC(=O)O2)O,umbelliferone
+27,36,0,0,0,C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)[CH]4[CH]([CH]([CH]([CH](O4)CO)O)O)O)O,Vitexin
+28,37,11.48,4.96,1.65,C1=CC(=C(C(=C1)O)O)O,Pyrogallo
+29,39,7.58,9.61,3.2,C1=C(C=C(C=C1O)O)O,Phloroglucinol dihydrate
+30,40,85.68,1.02,0.34,C1=CC=C(C(=C1)C(=O)O)O,Salcylic acid
+31,41,13.71,7.19,2.4,COC(=O)C1=CC=CC=C1O,salicylic acid methyl ester
+32,42,0,0,0,C1=CC=C(C(=C1)CO)O[CH]2[CH]([CH]([CH]([CH](O2)CO)O)O)O,D-salicin
+33,43,0,0,0,CC1=CC=C(CC1)C(C)C ,alpha-terpinene
+34,44,16.41,7.34,2.45,COC1=C(C=CC(=C1)C=O)O,vanillin
+35,49,100,0,0,C1=CC(=C(C=C1CC(=O)O)O)O ,Homoprotocatechuic acid
+36,50,10.4,26.21,8.74,C1=CC(=CC=C1CCC(=O)O)O,p-Hydroxyphenylpropionic acid
+37,51,14.82,15.04,5.01,C1=CC(=CC(=C1)O)CC(=O)O,m-Hydroxyphenylacetic acid
+38,52,0,0,0,COC1=C(C=C2C=CC(=O)OC2=C1)O ,Isoscopoletin
+39,54,9.84,8.96,2.99,C1=CC(=CN=C1)C(=O)N,Nicotinamide
+40,55,0,0,0,C1=CC(=CN=C1)C(=O)O  ,Nicotinic acid
+41,56,15.12,8.64,2.88,C[CH]1[CH]([CH]([CH]([CH](O1)OC[CH]2[CH]([CH]([CH]([CH](O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O,Rutin
+42,58,0,0,0,COC1=C(C=CC(=C1)CC=C)O,Eugenol
+43,61,0,0,0,COC1=C(C=C(C=C1)CC2=NC=CC3=CC(=C(C=C32)OC)OC)OC  ,papaverine
+44,64,13.52,24.08,8.03,C1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)C(=O)O  ,rhein
+45,65,12.91,6.78,2.26,C1=CC2=C(C(=C1)O)C(=O)C3=C(C2C4C(C(C(C(O4)CO)O)O)O)C=C(C=C3O)CO  ,aloin
+46,69,0,0,0,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)O  ,emodin
+47,74,100,0,0,C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=CC(=C3)O  ,6-hydroxyflavone
+48,76,0,0,0,CN1[CH]2CC[CH]1CC(C2)OC(=O)C(=C)C3=CC=CC=C3  ,atropamine
+49,77,0,0,0,CN1CCC[CH]1C2=CN=CC=C2  ,nicotine
+50,78,0,0,0,CN1[CH]2CC[CH]1CC(C2)OC(=O)[CH](CO)C3=CC=CC=C3  ,L-Hyoscamine
+51,84,0,0,0,C1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)CO ,Aloe-emodin
+52,86,0,0,0,CC(C)/C=C/CCCCC(=O)NCC1=CC(=C(C=C1)O)OC  ,capsaicin
+53,88,0,0,0,CC1[CH]2C[C]2(CC1=O)C(C)C  ,thujone
+54,89,0,0,0,C[C]12CCC(C1(C)C)CC2O,1(s)-borneol
+55,97,84.17,4.33,1.44,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O[CH]4[CH]([CH]([CH]([CH](O4)CO)O)O)O,spiraeoside
+56,100,0,0,0,C=C[CH]1CN2CC[CH]1C[CH]2[CH](C3=CC=NC4=CC=CC=C34)O,chinchonine-hydrochloride
+57,101,0,0,0,C1=CC(=O)OC2=CC3=C(C=CO3)C=C21,psoralen
+58,103,0,0,0,C1[CH](OC2=CC(=CC(=C2C1=O)O)O[CH]3[CH]([CH]([CH]([CH](O3)CO)O)O)O)C4=CC=C(C=C4)O,Prunin
+59,104,0,0,0,C[CH]1[CH]2CC[C]3(C=CC(=O)C(=C3[CH]2OC1=O)C)C,Santonin
+60,105,0,0,0,COC1=C2C=COC2=C(C3=C1C=CC(=O)O3)OC  ,Isopimpinellin
+61,106,0,0,0,CN1[CH](CCC[CH]1CC(=O)C2=CC=CC=C2)C[CH](C3=CC=CC=C3)O,Lobeline Hydrochloride
+62,110,0,0,0,C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O[CH]4[CH]([CH]([CH]([CH](O4)CO)O)O)O)O)O,Apigenin-7-glucoside
+63,111,16.35,11.64,3.88,COC1=C(C=C(C=C1)/C=C/C(=O)O)O ,Isoferulic Acid
+64,112,22.08,9.97,3.32,C1=CC(=CC=C1O)O[CH]2[CH]([CH]([CH]([CH](O2)CO)O)O)O ,p-Arbutin
+65,113,91.93,13.98,4.66,C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O[CH]4[CH]([CH]([CH]([CH](O4)CO)O)O)O)O)O)O,Luteolin-7-Glucoside
+66,114,0,0,0,CN1[CH]2CC[CH]1CC(C2)OC(=O)[CH](CO)C3=CC=CC=C3,r-Atropine
+67,115,11.26,10.03,3.34,C[C]12CCN([CH]1N(C3=C2C=C(C=C3)OC(=O)NC)C)C,Eserine/Physostigmine
+68,116,0,0,0,COC1=C2C=CC(=O)OC2=CC3=C1C=CO3  ,Bergapten
+69,117,0,0,0,COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O ,Formononetin
+70,119,0,0,0,C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O,Genistein
+71,120,0,0,0,CN1C2CCC1CC(C2)OC(=O)C3CCC(C4=CC=CC=C34)(C5=CC=CC=C5)C(=O)OC6CC7CCC(C6)N7C  ,Belladonna total alkaloids
+72,121,0,0,0,COC1=C(C=C(C=C1)C=CC2=CC(=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O,Rhaponticin
+73,122,0,0,0, C1=CC2=C(C(=C1)O[CH]3[CH]([CH]([CH]([CH](O3)CO)O)O)O)C(=O)C4=C([CH]2[CH]5C6=C(C(=CC=C6)O[CH]7[CH]([CH]([CH]([CH](O7)CO)O)O)O)C(=O)C8=C5C=C(C=C8O)C(=O)O)C=C(C=C4O)C(=O)O,Sennoside A
+74,123,0,0,0,COC1=C(C=C2C(=C1)C=CC(=O)O2)O ,Scopoletin
+75,125,0,0,0,C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O  ,Naringenin
+76,137,15.84,14.69,4.9,C1=CC=C(C=C1)C(C#N)OC2C(C(C(C(O2)COC3C(C(C(C(O3)CO)O)O)O)O)O)O,D-Amygdalin
+77,138,0,0,0,C1C2CC3CC1CC(C2)(C3)N,Amantadine
+78,139,0,0,0,C1=CC=C(C(=C1)O)O,(+)-Catechol hydrate
+79,140,9.12,2.46,0.82,C1[CH](C([CH](CC1(C(=O)O)O)O)O)O,Quinic acid
+80,141,0,0,0,C1=CC(=CC(=C1)O)/C=C/C(=O)O ,m-Coumaric acid
+81,142,13.99,7.71,2.57,COC1=C(C=CC(=C1)/C=C/C(=O)O)O,4-Hydroxy-3-methoxycinnamic acid
+82,145,0,0,0,C1=CC(=CC=C1/C=C/C(=O)O)O,p-Coumaric acid
+83,146,0,0,0,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Theophylline
+84,147,0,0,0,COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O,Curcumin
+85,148,0,0,0,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[CH]4[CH]([CH]([CH]([CH](O4)CO)O)O)O)O)O,Isoquercitrin
+86,150,0,0,0,CN1C=NC2=C1C(=O)NC(=O)N2C,Theobromine
+87,151,100,0,0,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O,Quercetin
+88,152,0,0,0,C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O,Luteolin
