@@ -1,0 +1,36 @@
+REMARK  Name = opt63.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_4
+REMARK    2  A    between atoms: C_5  and  C_6
+REMARK    3  A    between atoms: C_9  and  O_11
+REMARK    4  A    between atoms: C_12  and  O_13
+REMARK    5  A    between atoms: O_13  and  C_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       5.179  -1.625   2.172  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       4.833  -2.963   2.356  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       6.179  -1.063   2.962  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       5.463  -3.740   3.328  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       6.821  -1.834   3.929  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       6.472  -3.170   4.130  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  C   UNL     1       3.195  -0.849   0.809  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1       4.493  -0.814   1.146  0.00  0.00    +0.000 C 
+BRANCH   7  10
+ATOM      9  O   UNL     1       1.336  -0.251  -0.399  0.00  0.00    +0.000 OA
+ATOM     10  C   UNL     1       2.520  -0.046  -0.232  0.00  0.00    +0.000 C 
+ATOM     11  O   UNL     1       3.186   0.753  -0.860  0.00  0.00    +0.000 OA
+ENDBRANCH   7  10
+ENDBRANCH   1   8
+BRANCH   4  12
+ATOM     12  O   UNL     1       5.057  -5.041   3.451  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1       4.331  -5.202   2.823  0.00  0.00    +0.000 HD
+ENDBRANCH   4  12
+BRANCH   6  14
+ATOM     14  O   UNL     1       7.174  -3.833   5.132  0.00  0.00    +0.000 OA
+ATOM     15  C   UNL     1       6.894  -5.169   5.610  0.00  0.00    +0.000 C 
+ENDBRANCH   6  14
+TORSDOF 4

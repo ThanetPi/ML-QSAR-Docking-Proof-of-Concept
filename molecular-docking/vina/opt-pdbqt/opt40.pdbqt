@@ -1,0 +1,20 @@
+REMARK  Name = opt40.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       3.155  -0.942  -0.982  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       4.189  -1.726  -0.456  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       2.843  -1.092  -2.336  0.00  0.00    +0.000 A 
+ATOM      4  N   UNL     1       4.897  -2.620  -1.189  0.00  0.00    +0.000 NA
+ATOM      5  C   UNL     1       3.562  -2.007  -3.101  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       4.574  -2.749  -2.495  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O   UNL     1       2.717   0.111   1.057  0.00  0.00    +0.000 OA
+ATOM      8  C   UNL     1       2.404   0.028  -0.115  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1       1.515   0.684  -0.622  0.00  0.00    +0.000 OA
+ENDBRANCH   1   8
+TORSDOF 1
