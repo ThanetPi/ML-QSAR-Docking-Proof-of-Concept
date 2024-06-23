@@ -1,0 +1,15 @@
+receptor = redock.receptor.pdbqt
+
+center_x = 12.95
+center_y = 14.01
+center_z = 43.04
+size_x = 15.00
+size_y = 15.00
+size_z = 15.00
+spacing = 1
+
+
+energy_range = 3
+exhaustiveness = 128
+num_modes = 20
+cpu = 5
