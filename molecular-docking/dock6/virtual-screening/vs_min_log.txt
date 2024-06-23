@@ -1,0 +1,3831 @@
+dock6 -i vs_min.in
+
+
+
+--------------------------------------
+DOCK v6.10
+
+Released January 2023
+Copyright UCSF
+--------------------------------------
+
+
+Conformational Sampling Parameters
+------------------------------------------------------------------------------------------
+conformer_search_type                                        rigid
+
+Internal Energy Parameters
+------------------------------------------------------------------------------------------
+use_internal_energy                                          yes
+internal_energy_rep_exp                                      12
+internal_energy_cutoff                                       100
+Note: Internal energy only includes repulsive VDW for growth and/or minimization.
+
+Molecule Library Input Parameters
+------------------------------------------------------------------------------------------
+ligand_atom_file                                             ../09_VS/vs.out_scored.mol2
+limit_max_ligands                                            no
+skip_molecule                                                no
+read_mol_solvation                                           no
+calculate_rmsd                                               no
+
+Database Filter Parameters
+------------------------------------------------------------------------------------------
+use_database_filter                                          no
+
+Orient Ligand Parameters
+------------------------------------------------------------------------------------------
+orient_ligand                                                no
+
+Bump Filter Parameters
+------------------------------------------------------------------------------------------
+bump_filter                                                  no
+
+Master Score Parameters
+------------------------------------------------------------------------------------------
+score_molecules                                              yes
+
+Contact Score Parameters
+------------------------------------------------------------------------------------------
+contact_score_primary                                        no
+
+Grid Score Parameters
+------------------------------------------------------------------------------------------
+grid_score_primary                                           no
+
+MultiGrid Score Parameters
+------------------------------------------------------------------------------------------
+multigrid_score_primary                                      no
+
+Dock3.5 Score Parameters
+------------------------------------------------------------------------------------------
+dock3.5_score_primary                                        no
+
+Continuous Energy Score Parameters
+------------------------------------------------------------------------------------------
+continuous_score_primary                                     yes
+cont_score_rec_filename                                      ../01_structure/rec_charged.mol2
+cont_score_att_exp                                           6
+cont_score_rep_exp                                           12
+cont_score_rep_rad_scale                                     1
+cont_score_use_dist_dep_dielectric                           yes
+cont_score_dielectric                                        4.0
+cont_score_vdw_scale                                         1.0
+cont_score_es_scale                                          1.0
+
+Footprint Similarity Score Parameters
+------------------------------------------------------------------------------------------
+
+Pharmacophore Similarity Score Parameters
+------------------------------------------------------------------------------------------
+
+Hbond Energy Score Parameters
+------------------------------------------------------------------------------------------
+
+Internal Energy Score Parameters
+------------------------------------------------------------------------------------------
+
+Descriptor Score Parameters
+------------------------------------------------------------------------------------------
+
+Zou GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+
+Hawkins GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+
+SASA Score Parameters
+------------------------------------------------------------------------------------------
+
+Amber Score Parameters
+------------------------------------------------------------------------------------------
+
+Simplex Minimization Parameters
+------------------------------------------------------------------------------------------
+minimize_ligand                                              yes
+simplex_max_iterations                                       1000
+simplex_tors_premin_iterations                               0
+simplex_max_cycles                                           1.0
+simplex_score_converge                                       0.1
+simplex_cycle_converge                                       1.0
+simplex_trans_step                                           1.0
+simplex_rot_step                                             0.1
+simplex_tors_step                                            10.0
+simplex_random_seed                                          0
+simplex_restraint_min                                        no
+
+Atom Typing Parameters
+------------------------------------------------------------------------------------------
+atom_model                                                   all
+vdw_defn_file                                                /Users/thanetpitakbut/Downloads/dock6.10/parameters/vdw_AMBER_parm99.defn
+flex_defn_file                                               /Users/thanetpitakbut/Downloads/dock6.10/parameters/flex.defn
+flex_drive_file                                              /Users/thanetpitakbut/Downloads/dock6.10/parameters/flex_drive.tbl
+
+Molecule Library Output Parameters
+------------------------------------------------------------------------------------------
+ligand_outfile_prefix                                        vs.out_scored.min
+write_orientations                                           no
+num_scored_conformers                                        1
+rank_ligands                                                 no
+------------------------------------------------------------------------------------------
+Initializing Library File Routines...
+
+-----------------------------------
+Molecule: 4
+
+ Elapsed time for docking:	0.070 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -20.087725
+               Continuous_vdw_energy:          -17.898739
+                Continuous_es_energy:           -2.188987
+           Internal_energy_repulsive:            0.079667
+
+-----------------------------------
+Molecule: 4
+
+ Elapsed time for docking:	0.070 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.844166
+               Continuous_vdw_energy:          -18.008747
+                Continuous_es_energy:           -1.835419
+           Internal_energy_repulsive:            0.079675
+
+-----------------------------------
+Molecule: 4
+
+ Elapsed time for docking:	0.062 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.894730
+               Continuous_vdw_energy:          -18.206245
+                Continuous_es_energy:           -1.688484
+           Internal_energy_repulsive:            0.079680
+
+-----------------------------------
+Molecule: 5
+
+ Elapsed time for docking:	0.677 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -46.346027
+               Continuous_vdw_energy:          -40.791142
+                Continuous_es_energy:           -5.554886
+           Internal_energy_repulsive:           25.778275
+
+-----------------------------------
+Molecule: 5
+
+ Elapsed time for docking:	0.728 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -46.282845
+               Continuous_vdw_energy:          -40.668968
+                Continuous_es_energy:           -5.613878
+           Internal_energy_repulsive:           25.841406
+
+-----------------------------------
+Molecule: 5
+
+ Elapsed time for docking:	0.703 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -45.671425
+               Continuous_vdw_energy:          -40.812740
+                Continuous_es_energy:           -4.858684
+           Internal_energy_repulsive:           25.522297
+
+-----------------------------------
+Molecule: 6
+
+ Elapsed time for docking:	0.055 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.361805
+               Continuous_vdw_energy:          -24.592833
+                Continuous_es_energy:            0.231028
+           Internal_energy_repulsive:            0.291620
+
+-----------------------------------
+Molecule: 6
+
+ Elapsed time for docking:	0.055 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.296562
+               Continuous_vdw_energy:          -24.569241
+                Continuous_es_energy:            0.272678
+           Internal_energy_repulsive:            0.291635
+
+-----------------------------------
+Molecule: 6
+
+ Elapsed time for docking:	0.051 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.317837
+               Continuous_vdw_energy:          -24.561136
+                Continuous_es_energy:            0.243299
+           Internal_energy_repulsive:            0.291661
+
+-----------------------------------
+Molecule: 7
+
+ Elapsed time for docking:	0.102 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.620926
+               Continuous_vdw_energy:          -23.945051
+                Continuous_es_energy:           -0.675875
+           Internal_energy_repulsive:            0.585267
+
+-----------------------------------
+Molecule: 7
+
+ Elapsed time for docking:	0.097 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.325983
+               Continuous_vdw_energy:          -23.838972
+                Continuous_es_energy:           -0.487012
+           Internal_energy_repulsive:            0.831153
+
+-----------------------------------
+Molecule: 7
+
+ Elapsed time for docking:	0.101 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.819984
+               Continuous_vdw_energy:          -24.066959
+                Continuous_es_energy:            0.246976
+           Internal_energy_repulsive:            1.880437
+
+-----------------------------------
+Molecule: 8
+
+ Elapsed time for docking:	0.095 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.843809
+               Continuous_vdw_energy:          -21.515398
+                Continuous_es_energy:           -1.328411
+           Internal_energy_repulsive:            3.195112
+
+-----------------------------------
+Molecule: 8
+
+ Elapsed time for docking:	0.108 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.520582
+               Continuous_vdw_energy:          -21.364214
+                Continuous_es_energy:           -1.156369
+           Internal_energy_repulsive:            3.192827
+
+-----------------------------------
+Molecule: 8
+
+ Elapsed time for docking:	0.097 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.582161
+               Continuous_vdw_energy:          -20.506418
+                Continuous_es_energy:           -2.075742
+           Internal_energy_repulsive:            3.007282
+
+-----------------------------------
+Molecule: 9
+
+ Elapsed time for docking:	0.490 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -39.681858
+               Continuous_vdw_energy:          -35.941170
+                Continuous_es_energy:           -3.740688
+           Internal_energy_repulsive:            6.008593
+
+-----------------------------------
+Molecule: 9
+
+ Elapsed time for docking:	0.601 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -41.536182
+               Continuous_vdw_energy:          -35.836796
+                Continuous_es_energy:           -5.699386
+           Internal_energy_repulsive:            6.348254
+
+-----------------------------------
+Molecule: 9
+
+ Elapsed time for docking:	0.584 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -40.365013
+               Continuous_vdw_energy:          -35.227554
+                Continuous_es_energy:           -5.137458
+           Internal_energy_repulsive:            7.734582
+
+-----------------------------------
+Molecule: 12
+
+ Elapsed time for docking:	0.095 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.913847
+               Continuous_vdw_energy:          -28.762383
+                Continuous_es_energy:           -0.151464
+           Internal_energy_repulsive:            5.189360
+
+-----------------------------------
+Molecule: 12
+
+ Elapsed time for docking:	0.087 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.321213
+               Continuous_vdw_energy:          -29.121656
+                Continuous_es_energy:           -0.199555
+           Internal_energy_repulsive:            5.189982
+
+-----------------------------------
+Molecule: 12
+
+ Elapsed time for docking:	0.091 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.145611
+               Continuous_vdw_energy:          -28.964100
+                Continuous_es_energy:           -0.181511
+           Internal_energy_repulsive:            5.189704
+
+-----------------------------------
+Molecule: 13
+
+ Elapsed time for docking:	0.176 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.494621
+               Continuous_vdw_energy:          -23.575623
+                Continuous_es_energy:           -2.918999
+           Internal_energy_repulsive:            3.218262
+
+-----------------------------------
+Molecule: 13
+
+ Elapsed time for docking:	0.212 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.500542
+               Continuous_vdw_energy:          -23.440998
+                Continuous_es_energy:           -3.059544
+           Internal_energy_repulsive:            2.943398
+
+-----------------------------------
+Molecule: 13
+
+ Elapsed time for docking:	0.166 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.019241
+               Continuous_vdw_energy:          -23.566622
+                Continuous_es_energy:           -3.452619
+           Internal_energy_repulsive:            1.556825
+
+-----------------------------------
+Molecule: 15
+
+ Elapsed time for docking:	0.189 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.914997
+               Continuous_vdw_energy:          -30.859997
+                Continuous_es_energy:           -2.055001
+           Internal_energy_repulsive:            1.365306
+
+-----------------------------------
+Molecule: 15
+
+ Elapsed time for docking:	0.208 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.579494
+               Continuous_vdw_energy:          -30.830839
+                Continuous_es_energy:           -1.748656
+           Internal_energy_repulsive:            1.365285
+
+-----------------------------------
+Molecule: 15
+
+ Elapsed time for docking:	0.196 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.951447
+               Continuous_vdw_energy:          -31.018774
+                Continuous_es_energy:           -1.932671
+           Internal_energy_repulsive:            1.365198
+
+-----------------------------------
+Molecule: 16
+
+ Elapsed time for docking:	0.348 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.285080
+               Continuous_vdw_energy:          -35.338848
+                Continuous_es_energy:           -2.946230
+           Internal_energy_repulsive:            5.071199
+
+-----------------------------------
+Molecule: 16
+
+ Elapsed time for docking:	0.390 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -37.184063
+               Continuous_vdw_energy:          -34.285938
+                Continuous_es_energy:           -2.898125
+           Internal_energy_repulsive:            4.511862
+
+-----------------------------------
+Molecule: 16
+
+ Elapsed time for docking:	0.372 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -37.030098
+               Continuous_vdw_energy:          -34.435276
+                Continuous_es_energy:           -2.594821
+           Internal_energy_repulsive:            4.499066
+
+-----------------------------------
+Molecule: 17
+
+ Elapsed time for docking:	0.200 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.872433
+               Continuous_vdw_energy:          -23.830742
+                Continuous_es_energy:           -2.041692
+           Internal_energy_repulsive:            4.196040
+
+-----------------------------------
+Molecule: 17
+
+ Elapsed time for docking:	0.181 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.213482
+               Continuous_vdw_energy:          -22.579475
+                Continuous_es_energy:           -3.634007
+           Internal_energy_repulsive:            4.047576
+
+-----------------------------------
+Molecule: 17
+
+ Elapsed time for docking:	0.185 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.881735
+               Continuous_vdw_energy:          -23.243151
+                Continuous_es_energy:           -1.638585
+           Internal_energy_repulsive:            4.533300
+
+-----------------------------------
+Molecule: 18
+
+ Elapsed time for docking:	1.699 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -62.101753
+               Continuous_vdw_energy:          -55.673874
+                Continuous_es_energy:           -6.427879
+           Internal_energy_repulsive:           12.565475
+
+-----------------------------------
+Molecule: 18
+
+ Elapsed time for docking:	1.901 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -61.955658
+               Continuous_vdw_energy:          -55.700100
+                Continuous_es_energy:           -6.255558
+           Internal_energy_repulsive:           12.386946
+
+-----------------------------------
+Molecule: 18
+
+ Elapsed time for docking:	1.791 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -61.251572
+               Continuous_vdw_energy:          -55.236935
+                Continuous_es_energy:           -6.014637
+           Internal_energy_repulsive:           11.948627
+
+-----------------------------------
+Molecule: 19
+
+ Elapsed time for docking:	1.274 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -54.282307
+               Continuous_vdw_energy:          -49.337097
+                Continuous_es_energy:           -4.945209
+           Internal_energy_repulsive:           12.385440
+
+-----------------------------------
+Molecule: 19
+
+ Elapsed time for docking:	1.368 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -54.253384
+               Continuous_vdw_energy:          -49.438957
+                Continuous_es_energy:           -4.814425
+           Internal_energy_repulsive:           12.269042
+
+-----------------------------------
+Molecule: 19
+
+ Elapsed time for docking:	1.232 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -54.388809
+               Continuous_vdw_energy:          -49.689022
+                Continuous_es_energy:           -4.699789
+           Internal_energy_repulsive:           12.347795
+
+-----------------------------------
+Molecule: 20
+
+ Elapsed time for docking:	0.092 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.289513
+               Continuous_vdw_energy:          -20.537203
+                Continuous_es_energy:           -0.752309
+           Internal_energy_repulsive:            2.807680
+
+-----------------------------------
+Molecule: 20
+
+ Elapsed time for docking:	0.093 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.241175
+               Continuous_vdw_energy:          -20.342556
+                Continuous_es_energy:           -0.898618
+           Internal_energy_repulsive:            2.813397
+
+-----------------------------------
+Molecule: 20
+
+ Elapsed time for docking:	0.083 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.061176
+               Continuous_vdw_energy:          -20.641151
+                Continuous_es_energy:           -0.420024
+           Internal_energy_repulsive:            2.792115
+
+-----------------------------------
+Molecule: 21
+
+ Elapsed time for docking:	0.078 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.220533
+               Continuous_vdw_energy:          -21.402479
+                Continuous_es_energy:           -0.818055
+           Internal_energy_repulsive:            1.829493
+
+-----------------------------------
+Molecule: 21
+
+ Elapsed time for docking:	0.079 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.421949
+               Continuous_vdw_energy:          -19.696396
+                Continuous_es_energy:           -2.725554
+           Internal_energy_repulsive:            1.520757
+
+-----------------------------------
+Molecule: 21
+
+ Elapsed time for docking:	0.086 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.511187
+               Continuous_vdw_energy:          -19.594868
+                Continuous_es_energy:           -2.916319
+           Internal_energy_repulsive:            1.423635
+
+-----------------------------------
+Molecule: 22
+
+ Elapsed time for docking:	0.154 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.876776
+               Continuous_vdw_energy:          -26.406851
+                Continuous_es_energy:           -1.469925
+           Internal_energy_repulsive:            1.685433
+
+-----------------------------------
+Molecule: 22
+
+ Elapsed time for docking:	0.144 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.478540
+               Continuous_vdw_energy:          -26.040949
+                Continuous_es_energy:           -1.437592
+           Internal_energy_repulsive:            2.541380
+
+-----------------------------------
+Molecule: 22
+
+ Elapsed time for docking:	0.144 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.457563
+               Continuous_vdw_energy:          -24.715784
+                Continuous_es_energy:           -2.741779
+           Internal_energy_repulsive:            1.544005
+
+-----------------------------------
+Molecule: 23
+
+ Elapsed time for docking:	0.073 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.408417
+               Continuous_vdw_energy:          -17.772671
+                Continuous_es_energy:           -1.635746
+           Internal_energy_repulsive:            0.081126
+
+-----------------------------------
+Molecule: 23
+
+ Elapsed time for docking:	0.067 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.487911
+               Continuous_vdw_energy:          -17.700949
+                Continuous_es_energy:           -1.786962
+           Internal_energy_repulsive:            0.081123
+
+-----------------------------------
+Molecule: 23
+
+ Elapsed time for docking:	0.072 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.477291
+               Continuous_vdw_energy:          -17.932051
+                Continuous_es_energy:           -1.545241
+           Internal_energy_repulsive:            0.081126
+
+-----------------------------------
+Molecule: 24
+
+ Elapsed time for docking:	0.115 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.430534
+               Continuous_vdw_energy:          -28.430534
+                Continuous_es_energy:            0.000000
+           Internal_energy_repulsive:            6.418683
+
+-----------------------------------
+Molecule: 24
+
+ Elapsed time for docking:	0.232 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.410889
+               Continuous_vdw_energy:          -29.410889
+                Continuous_es_energy:            0.000000
+           Internal_energy_repulsive:           11.407023
+
+-----------------------------------
+Molecule: 24
+
+ Elapsed time for docking:	0.140 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.986622
+               Continuous_vdw_energy:          -27.986622
+                Continuous_es_energy:            0.000000
+           Internal_energy_repulsive:           12.101407
+
+-----------------------------------
+Molecule: 25
+
+ Elapsed time for docking:	0.103 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.536606
+               Continuous_vdw_energy:          -23.338837
+                Continuous_es_energy:           -0.197769
+           Internal_energy_repulsive:            2.141013
+
+-----------------------------------
+Molecule: 25
+
+ Elapsed time for docking:	0.112 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.261292
+               Continuous_vdw_energy:          -22.980024
+                Continuous_es_energy:           -0.281267
+           Internal_energy_repulsive:            2.050514
+
+-----------------------------------
+Molecule: 25
+
+ Elapsed time for docking:	0.111 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.739317
+               Continuous_vdw_energy:          -22.566946
+                Continuous_es_energy:           -0.172370
+           Internal_energy_repulsive:            1.826224
+
+-----------------------------------
+Molecule: 27
+
+ Elapsed time for docking:	0.075 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.203487
+               Continuous_vdw_energy:          -21.857830
+                Continuous_es_energy:           -2.345657
+           Internal_energy_repulsive:            2.141616
+
+-----------------------------------
+Molecule: 27
+
+ Elapsed time for docking:	0.083 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.208080
+               Continuous_vdw_energy:          -21.697348
+                Continuous_es_energy:           -2.510733
+           Internal_energy_repulsive:            2.129962
+
+-----------------------------------
+Molecule: 27
+
+ Elapsed time for docking:	0.087 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.002441
+               Continuous_vdw_energy:          -21.860823
+                Continuous_es_energy:           -2.141619
+           Internal_energy_repulsive:            2.290015
+
+-----------------------------------
+Molecule: 28
+
+ Elapsed time for docking:	0.202 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -30.702929
+               Continuous_vdw_energy:          -29.974375
+                Continuous_es_energy:           -0.728555
+           Internal_energy_repulsive:            9.038177
+
+-----------------------------------
+Molecule: 28
+
+ Elapsed time for docking:	0.152 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.279810
+               Continuous_vdw_energy:          -28.196207
+                Continuous_es_energy:           -1.083602
+           Internal_energy_repulsive:            8.912333
+
+-----------------------------------
+Molecule: 28
+
+ Elapsed time for docking:	0.154 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.264891
+               Continuous_vdw_energy:          -29.247726
+                Continuous_es_energy:           -0.017164
+           Internal_energy_repulsive:            8.483031
+
+-----------------------------------
+Molecule: 29
+
+ Elapsed time for docking:	0.082 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.361696
+               Continuous_vdw_energy:          -22.496168
+                Continuous_es_energy:           -1.865528
+           Internal_energy_repulsive:            1.030948
+
+-----------------------------------
+Molecule: 29
+
+ Elapsed time for docking:	0.081 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.154976
+               Continuous_vdw_energy:          -22.594521
+                Continuous_es_energy:           -1.560456
+           Internal_energy_repulsive:            1.274122
+
+-----------------------------------
+Molecule: 29
+
+ Elapsed time for docking:	0.081 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.841993
+               Continuous_vdw_energy:          -21.331644
+                Continuous_es_energy:           -2.510350
+           Internal_energy_repulsive:            1.079023
+
+-----------------------------------
+Molecule: 32
+
+ Elapsed time for docking:	0.229 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.836342
+               Continuous_vdw_energy:          -24.677582
+                Continuous_es_energy:            0.841240
+           Internal_energy_repulsive:            6.378927
+
+-----------------------------------
+Molecule: 32
+
+ Elapsed time for docking:	0.240 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -18.789610
+               Continuous_vdw_energy:          -16.539637
+                Continuous_es_energy:           -2.249973
+           Internal_energy_repulsive:            7.885686
+
+-----------------------------------
+Molecule: 32
+
+ Elapsed time for docking:	0.243 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.313753
+               Continuous_vdw_energy:          -22.878769
+                Continuous_es_energy:            0.565015
+           Internal_energy_repulsive:            3.758283
+
+-----------------------------------
+Molecule: 33
+
+ Elapsed time for docking:	0.167 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.472427
+               Continuous_vdw_energy:          -29.093512
+                Continuous_es_energy:           -0.378917
+           Internal_energy_repulsive:            5.998515
+
+-----------------------------------
+Molecule: 33
+
+ Elapsed time for docking:	0.168 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.961227
+               Continuous_vdw_energy:          -29.296421
+                Continuous_es_energy:           -0.664806
+           Internal_energy_repulsive:            5.580034
+
+-----------------------------------
+Molecule: 33
+
+ Elapsed time for docking:	0.174 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.667385
+               Continuous_vdw_energy:          -29.279440
+                Continuous_es_energy:           -0.387945
+           Internal_energy_repulsive:            6.026628
+
+-----------------------------------
+Molecule: 34
+
+ Elapsed time for docking:	0.395 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -35.301941
+               Continuous_vdw_energy:          -34.932850
+                Continuous_es_energy:           -0.369092
+           Internal_energy_repulsive:           12.932488
+
+-----------------------------------
+Molecule: 34
+
+ Elapsed time for docking:	0.429 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.051689
+               Continuous_vdw_energy:          -25.726740
+                Continuous_es_energy:           -2.324948
+           Internal_energy_repulsive:           17.634781
+
+-----------------------------------
+Molecule: 34
+
+ Elapsed time for docking:	0.403 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.088747
+               Continuous_vdw_energy:          -25.601889
+                Continuous_es_energy:           -2.486858
+           Internal_energy_repulsive:           19.426847
+
+-----------------------------------
+Molecule: 35
+
+ Elapsed time for docking:	0.068 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.574089
+               Continuous_vdw_energy:          -25.444857
+                Continuous_es_energy:           -0.129232
+           Internal_energy_repulsive:            0.313153
+
+-----------------------------------
+Molecule: 35
+
+ Elapsed time for docking:	0.079 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.795050
+               Continuous_vdw_energy:          -25.568453
+                Continuous_es_energy:           -0.226597
+           Internal_energy_repulsive:            0.313103
+
+-----------------------------------
+Molecule: 35
+
+ Elapsed time for docking:	0.078 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.644184
+               Continuous_vdw_energy:          -25.499521
+                Continuous_es_energy:           -0.144664
+           Internal_energy_repulsive:            0.313063
+
+-----------------------------------
+Molecule: 36
+
+ Elapsed time for docking:	0.629 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -39.758915
+               Continuous_vdw_energy:          -34.810070
+                Continuous_es_energy:           -4.948843
+           Internal_energy_repulsive:           20.211184
+
+-----------------------------------
+Molecule: 36
+
+ Elapsed time for docking:	0.570 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -39.708828
+               Continuous_vdw_energy:          -35.039490
+                Continuous_es_energy:           -4.669339
+           Internal_energy_repulsive:           20.310883
+
+-----------------------------------
+Molecule: 36
+
+ Elapsed time for docking:	0.888 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.698692
+               Continuous_vdw_energy:          -34.694958
+                Continuous_es_energy:           -4.003734
+           Internal_energy_repulsive:           17.896786
+
+-----------------------------------
+Molecule: 37
+
+ Elapsed time for docking:	0.070 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.211798
+               Continuous_vdw_energy:          -19.563343
+                Continuous_es_energy:           -2.648455
+           Internal_energy_repulsive:            0.103603
+
+-----------------------------------
+Molecule: 37
+
+ Elapsed time for docking:	0.077 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.776707
+               Continuous_vdw_energy:          -19.150501
+                Continuous_es_energy:           -2.626206
+           Internal_energy_repulsive:            0.103595
+
+-----------------------------------
+Molecule: 37
+
+ Elapsed time for docking:	0.077 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.461800
+               Continuous_vdw_energy:          -19.234467
+                Continuous_es_energy:           -2.227333
+           Internal_energy_repulsive:            0.103605
+
+-----------------------------------
+Molecule: 39
+
+ Elapsed time for docking:	0.080 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.984907
+               Continuous_vdw_energy:          -18.656866
+                Continuous_es_energy:           -1.328042
+           Internal_energy_repulsive:            0.110244
+
+-----------------------------------
+Molecule: 39
+
+ Elapsed time for docking:	0.073 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.933588
+               Continuous_vdw_energy:          -18.551189
+                Continuous_es_energy:           -1.382398
+           Internal_energy_repulsive:            0.110235
+
+-----------------------------------
+Molecule: 39
+
+ Elapsed time for docking:	0.076 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.933262
+               Continuous_vdw_energy:          -18.564680
+                Continuous_es_energy:           -1.368581
+           Internal_energy_repulsive:            0.110240
+
+-----------------------------------
+Molecule: 40
+
+ Elapsed time for docking:	0.086 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.597679
+               Continuous_vdw_energy:          -20.570181
+                Continuous_es_energy:           -2.027499
+           Internal_energy_repulsive:            3.269771
+
+-----------------------------------
+Molecule: 40
+
+ Elapsed time for docking:	0.091 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.412071
+               Continuous_vdw_energy:          -19.722538
+                Continuous_es_energy:           -1.689533
+           Internal_energy_repulsive:            3.819240
+
+-----------------------------------
+Molecule: 40
+
+ Elapsed time for docking:	0.106 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.108778
+               Continuous_vdw_energy:          -20.836660
+                Continuous_es_energy:           -2.272117
+           Internal_energy_repulsive:            1.767113
+
+-----------------------------------
+Molecule: 41
+
+ Elapsed time for docking:	0.105 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.589741
+               Continuous_vdw_energy:          -22.220541
+                Continuous_es_energy:           -0.369199
+           Internal_energy_repulsive:            5.630565
+
+-----------------------------------
+Molecule: 41
+
+ Elapsed time for docking:	0.141 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.579247
+               Continuous_vdw_energy:          -21.394070
+                Continuous_es_energy:           -1.185176
+           Internal_energy_repulsive:            4.627742
+
+-----------------------------------
+Molecule: 41
+
+ Elapsed time for docking:	0.099 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.788933
+               Continuous_vdw_energy:          -22.934034
+                Continuous_es_energy:            0.145102
+           Internal_energy_repulsive:            6.226687
+
+-----------------------------------
+Molecule: 42
+
+ Elapsed time for docking:	0.342 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.670376
+               Continuous_vdw_energy:          -30.483519
+                Continuous_es_energy:           -4.186859
+           Internal_energy_repulsive:            5.930856
+
+-----------------------------------
+Molecule: 42
+
+ Elapsed time for docking:	0.385 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.981804
+               Continuous_vdw_energy:          -30.845383
+                Continuous_es_energy:           -4.136422
+           Internal_energy_repulsive:            6.067798
+
+-----------------------------------
+Molecule: 42
+
+ Elapsed time for docking:	0.368 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.286587
+               Continuous_vdw_energy:          -30.451742
+                Continuous_es_energy:           -3.834843
+           Internal_energy_repulsive:            5.800503
+
+-----------------------------------
+Molecule: 43
+
+ Elapsed time for docking:	0.127 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.093254
+               Continuous_vdw_energy:          -21.160645
+                Continuous_es_energy:            0.067391
+           Internal_energy_repulsive:           10.067724
+
+-----------------------------------
+Molecule: 43
+
+ Elapsed time for docking:	0.099 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.475908
+               Continuous_vdw_energy:          -21.606283
+                Continuous_es_energy:            0.130376
+           Internal_energy_repulsive:            8.461454
+
+-----------------------------------
+Molecule: 43
+
+ Elapsed time for docking:	0.130 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.139889
+               Continuous_vdw_energy:          -21.189642
+                Continuous_es_energy:            0.049753
+           Internal_energy_repulsive:            9.249693
+
+-----------------------------------
+Molecule: 44
+
+ Elapsed time for docking:	0.095 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -23.559071
+               Continuous_vdw_energy:          -21.791359
+                Continuous_es_energy:           -1.767712
+           Internal_energy_repulsive:            1.879523
+
+-----------------------------------
+Molecule: 44
+
+ Elapsed time for docking:	0.103 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.759151
+               Continuous_vdw_energy:          -22.932217
+                Continuous_es_energy:            0.173065
+           Internal_energy_repulsive:            1.852736
+
+-----------------------------------
+Molecule: 44
+
+ Elapsed time for docking:	0.101 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.617281
+               Continuous_vdw_energy:          -23.081915
+                Continuous_es_energy:            0.464635
+           Internal_energy_repulsive:            1.883199
+
+-----------------------------------
+Molecule: 49
+
+ Elapsed time for docking:	0.132 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.460657
+               Continuous_vdw_energy:          -24.119873
+                Continuous_es_energy:           -3.340784
+           Internal_energy_repulsive:            2.131084
+
+-----------------------------------
+Molecule: 49
+
+ Elapsed time for docking:	0.126 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.999281
+               Continuous_vdw_energy:          -24.076523
+                Continuous_es_energy:           -2.922758
+           Internal_energy_repulsive:            2.144712
+
+-----------------------------------
+Molecule: 49
+
+ Elapsed time for docking:	0.140 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.673607
+               Continuous_vdw_energy:          -24.492664
+                Continuous_es_energy:           -2.180943
+           Internal_energy_repulsive:            1.853672
+
+-----------------------------------
+Molecule: 50
+
+ Elapsed time for docking:	0.149 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.068001
+               Continuous_vdw_energy:          -23.196606
+                Continuous_es_energy:           -3.871395
+           Internal_energy_repulsive:            2.190771
+
+-----------------------------------
+Molecule: 50
+
+ Elapsed time for docking:	0.157 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.063005
+               Continuous_vdw_energy:          -23.929995
+                Continuous_es_energy:           -2.133011
+           Internal_energy_repulsive:            3.101841
+
+-----------------------------------
+Molecule: 50
+
+ Elapsed time for docking:	0.166 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.766655
+               Continuous_vdw_energy:          -22.366076
+                Continuous_es_energy:           -3.400580
+           Internal_energy_repulsive:            1.577233
+
+-----------------------------------
+Molecule: 51
+
+ Elapsed time for docking:	0.156 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.366127
+               Continuous_vdw_energy:          -22.670935
+                Continuous_es_energy:           -3.695193
+           Internal_energy_repulsive:            2.015330
+
+-----------------------------------
+Molecule: 51
+
+ Elapsed time for docking:	0.115 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.027224
+               Continuous_vdw_energy:          -21.962299
+                Continuous_es_energy:           -3.064924
+           Internal_energy_repulsive:            1.615340
+
+-----------------------------------
+Molecule: 51
+
+ Elapsed time for docking:	0.124 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.027512
+               Continuous_vdw_energy:          -22.558552
+                Continuous_es_energy:           -2.468961
+           Internal_energy_repulsive:            2.104235
+
+-----------------------------------
+Molecule: 52
+
+ Elapsed time for docking:	0.119 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.652866
+               Continuous_vdw_energy:          -26.677038
+                Continuous_es_energy:            0.024172
+           Internal_energy_repulsive:            4.278356
+
+-----------------------------------
+Molecule: 52
+
+ Elapsed time for docking:	0.112 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.174036
+               Continuous_vdw_energy:          -26.099577
+                Continuous_es_energy:           -0.074458
+           Internal_energy_repulsive:            4.385754
+
+-----------------------------------
+Molecule: 52
+
+ Elapsed time for docking:	0.118 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.267675
+               Continuous_vdw_energy:          -26.410114
+                Continuous_es_energy:            0.142440
+           Internal_energy_repulsive:            4.439167
+
+-----------------------------------
+Molecule: 54
+
+ Elapsed time for docking:	0.060 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -20.922585
+               Continuous_vdw_energy:          -20.133350
+                Continuous_es_energy:           -0.789234
+           Internal_energy_repulsive:            1.280167
+
+-----------------------------------
+Molecule: 54
+
+ Elapsed time for docking:	0.051 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -20.918831
+               Continuous_vdw_energy:          -20.095045
+                Continuous_es_energy:           -0.823785
+           Internal_energy_repulsive:            1.360075
+
+-----------------------------------
+Molecule: 54
+
+ Elapsed time for docking:	0.048 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -20.902565
+               Continuous_vdw_energy:          -20.089792
+                Continuous_es_energy:           -0.812772
+           Internal_energy_repulsive:            1.342819
+
+-----------------------------------
+Molecule: 55
+
+ Elapsed time for docking:	0.074 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.664291
+               Continuous_vdw_energy:          -20.314144
+                Continuous_es_energy:           -1.350147
+           Internal_energy_repulsive:            1.172953
+
+-----------------------------------
+Molecule: 55
+
+ Elapsed time for docking:	0.073 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.385323
+               Continuous_vdw_energy:          -20.391930
+                Continuous_es_energy:           -0.993393
+           Internal_energy_repulsive:            1.018435
+
+-----------------------------------
+Molecule: 55
+
+ Elapsed time for docking:	0.069 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -20.967739
+               Continuous_vdw_energy:          -19.719585
+                Continuous_es_energy:           -1.248154
+           Internal_energy_repulsive:            0.937982
+
+-----------------------------------
+Molecule: 56
+
+ Elapsed time for docking:	1.749 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -48.478798
+               Continuous_vdw_energy:          -44.875648
+                Continuous_es_energy:           -3.603148
+           Internal_energy_repulsive:           19.645876
+
+-----------------------------------
+Molecule: 56
+
+ Elapsed time for docking:	1.235 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -49.034008
+               Continuous_vdw_energy:          -43.844364
+                Continuous_es_energy:           -5.189645
+           Internal_energy_repulsive:           11.785105
+
+-----------------------------------
+Molecule: 56
+
+ Elapsed time for docking:	1.332 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -48.717072
+               Continuous_vdw_energy:          -43.665562
+                Continuous_es_energy:           -5.051508
+           Internal_energy_repulsive:           11.642659
+
+-----------------------------------
+Molecule: 58
+
+ Elapsed time for docking:	0.181 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.496923
+               Continuous_vdw_energy:          -25.468367
+                Continuous_es_energy:           -0.028556
+           Internal_energy_repulsive:            4.589336
+
+-----------------------------------
+Molecule: 58
+
+ Elapsed time for docking:	0.183 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.543556
+               Continuous_vdw_energy:          -23.259212
+                Continuous_es_energy:           -1.284343
+           Internal_energy_repulsive:            2.806424
+
+-----------------------------------
+Molecule: 58
+
+ Elapsed time for docking:	0.170 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.995974
+               Continuous_vdw_energy:          -24.204304
+                Continuous_es_energy:           -0.791669
+           Internal_energy_repulsive:            1.695970
+
+-----------------------------------
+Molecule: 61
+
+ Elapsed time for docking:	0.668 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -39.574905
+               Continuous_vdw_energy:          -37.874516
+                Continuous_es_energy:           -1.700390
+           Internal_energy_repulsive:           11.724783
+
+-----------------------------------
+Molecule: 61
+
+ Elapsed time for docking:	0.435 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.065281
+               Continuous_vdw_energy:          -29.323288
+                Continuous_es_energy:           -2.741994
+           Internal_energy_repulsive:           16.073885
+
+-----------------------------------
+Molecule: 61
+
+ Elapsed time for docking:	0.444 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -37.470806
+               Continuous_vdw_energy:          -34.340302
+                Continuous_es_energy:           -3.130504
+           Internal_energy_repulsive:           15.800564
+
+-----------------------------------
+Molecule: 64
+
+ Elapsed time for docking:	0.218 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.681736
+               Continuous_vdw_energy:          -30.589973
+                Continuous_es_energy:           -2.091764
+           Internal_energy_repulsive:           11.759278
+
+-----------------------------------
+Molecule: 64
+
+ Elapsed time for docking:	0.198 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -31.613764
+               Continuous_vdw_energy:          -29.261225
+                Continuous_es_energy:           -2.352539
+           Internal_energy_repulsive:           12.802218
+
+-----------------------------------
+Molecule: 64
+
+ Elapsed time for docking:	0.199 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -31.615738
+               Continuous_vdw_energy:          -29.286926
+                Continuous_es_energy:           -2.328811
+           Internal_energy_repulsive:           12.703928
+
+-----------------------------------
+Molecule: 65
+
+ Elapsed time for docking:	0.541 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -35.949032
+               Continuous_vdw_energy:          -32.714687
+                Continuous_es_energy:           -3.234345
+           Internal_energy_repulsive:           54.495548
+
+-----------------------------------
+Molecule: 65
+
+ Elapsed time for docking:	0.890 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -35.089939
+               Continuous_vdw_energy:          -31.356573
+                Continuous_es_energy:           -3.733367
+           Internal_energy_repulsive:           26.242180
+
+-----------------------------------
+Molecule: 65
+
+ Elapsed time for docking:	0.952 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -36.962151
+               Continuous_vdw_energy:          -32.412365
+                Continuous_es_energy:           -4.549787
+           Internal_energy_repulsive:           55.166241
+
+-----------------------------------
+Molecule: 69
+
+ Elapsed time for docking:	0.192 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -30.501841
+               Continuous_vdw_energy:          -28.404470
+                Continuous_es_energy:           -2.097370
+           Internal_energy_repulsive:           12.801698
+
+-----------------------------------
+Molecule: 69
+
+ Elapsed time for docking:	0.167 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -31.606806
+               Continuous_vdw_energy:          -29.711393
+                Continuous_es_energy:           -1.895412
+           Internal_energy_repulsive:           12.802418
+
+-----------------------------------
+Molecule: 69
+
+ Elapsed time for docking:	0.156 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -31.000732
+               Continuous_vdw_energy:          -28.470634
+                Continuous_es_energy:           -2.530098
+           Internal_energy_repulsive:           12.800084
+
+-----------------------------------
+Molecule: 74
+
+ Elapsed time for docking:	0.143 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.545223
+               Continuous_vdw_energy:          -28.227907
+                Continuous_es_energy:           -0.317315
+           Internal_energy_repulsive:            5.255424
+
+-----------------------------------
+Molecule: 74
+
+ Elapsed time for docking:	0.137 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.772446
+               Continuous_vdw_energy:          -28.260307
+                Continuous_es_energy:           -0.512139
+           Internal_energy_repulsive:            5.723917
+
+-----------------------------------
+Molecule: 74
+
+ Elapsed time for docking:	0.150 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.218138
+               Continuous_vdw_energy:          -27.806787
+                Continuous_es_energy:           -0.411350
+           Internal_energy_repulsive:            5.713411
+
+-----------------------------------
+Molecule: 76
+
+ Elapsed time for docking:	0.389 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.032017
+               Continuous_vdw_energy:          -31.765915
+                Continuous_es_energy:           -1.266101
+           Internal_energy_repulsive:            7.001014
+
+-----------------------------------
+Molecule: 76
+
+ Elapsed time for docking:	0.458 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.932787
+               Continuous_vdw_energy:          -28.964647
+                Continuous_es_energy:           -0.968140
+           Internal_energy_repulsive:            8.975794
+
+-----------------------------------
+Molecule: 76
+
+ Elapsed time for docking:	0.540 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.297791
+               Continuous_vdw_energy:          -30.853527
+                Continuous_es_energy:           -1.444264
+           Internal_energy_repulsive:            6.516287
+
+-----------------------------------
+Molecule: 77
+
+ Elapsed time for docking:	0.111 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.078640
+               Continuous_vdw_energy:          -20.762491
+                Continuous_es_energy:           -0.316149
+           Internal_energy_repulsive:            5.953270
+
+-----------------------------------
+Molecule: 77
+
+ Elapsed time for docking:	0.104 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.226173
+               Continuous_vdw_energy:          -20.960838
+                Continuous_es_energy:           -0.265336
+           Internal_energy_repulsive:            5.841404
+
+-----------------------------------
+Molecule: 77
+
+ Elapsed time for docking:	0.104 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.930658
+               Continuous_vdw_energy:          -21.837742
+                Continuous_es_energy:           -0.092916
+           Internal_energy_repulsive:            4.417383
+
+-----------------------------------
+Molecule: 78
+
+ Elapsed time for docking:	0.485 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -36.604271
+               Continuous_vdw_energy:          -36.399719
+                Continuous_es_energy:           -0.204552
+           Internal_energy_repulsive:            8.406513
+
+-----------------------------------
+Molecule: 78
+
+ Elapsed time for docking:	0.564 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -36.249748
+               Continuous_vdw_energy:          -34.171841
+                Continuous_es_energy:           -2.077908
+           Internal_energy_repulsive:           10.393116
+
+-----------------------------------
+Molecule: 78
+
+ Elapsed time for docking:	0.374 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -36.020866
+               Continuous_vdw_energy:          -35.262657
+                Continuous_es_energy:           -0.758210
+           Internal_energy_repulsive:            8.016491
+
+-----------------------------------
+Molecule: 84
+
+ Elapsed time for docking:	0.223 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.059238
+               Continuous_vdw_energy:          -30.541416
+                Continuous_es_energy:           -2.517823
+           Internal_energy_repulsive:           12.373106
+
+-----------------------------------
+Molecule: 84
+
+ Elapsed time for docking:	0.211 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.944016
+               Continuous_vdw_energy:          -30.434221
+                Continuous_es_energy:           -2.509793
+           Internal_energy_repulsive:           12.344880
+
+-----------------------------------
+Molecule: 84
+
+ Elapsed time for docking:	0.305 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.789448
+               Continuous_vdw_energy:          -30.500301
+                Continuous_es_energy:           -2.289147
+           Internal_energy_repulsive:           12.079107
+
+-----------------------------------
+Molecule: 86
+
+ Elapsed time for docking:	0.546 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.941483
+               Continuous_vdw_energy:          -38.141727
+                Continuous_es_energy:           -0.799756
+           Internal_energy_repulsive:            8.025169
+
+-----------------------------------
+Molecule: 86
+
+ Elapsed time for docking:	0.958 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.185459
+               Continuous_vdw_energy:          -37.407326
+                Continuous_es_energy:           -0.778135
+           Internal_energy_repulsive:            6.370949
+
+-----------------------------------
+Molecule: 86
+
+ Elapsed time for docking:	1.972 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.591778
+               Continuous_vdw_energy:          -37.973507
+                Continuous_es_energy:           -0.618269
+           Internal_energy_repulsive:            5.691129
+
+-----------------------------------
+Molecule: 88
+
+ Elapsed time for docking:	0.216 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.412102
+               Continuous_vdw_energy:          -22.563704
+                Continuous_es_energy:            0.151603
+           Internal_energy_repulsive:           12.421852
+
+-----------------------------------
+Molecule: 88
+
+ Elapsed time for docking:	0.131 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.448626
+               Continuous_vdw_energy:          -21.038460
+                Continuous_es_energy:           -1.410165
+           Internal_energy_repulsive:           16.377106
+
+-----------------------------------
+Molecule: 88
+
+ Elapsed time for docking:	0.110 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -21.251020
+               Continuous_vdw_energy:          -19.969255
+                Continuous_es_energy:           -1.281765
+           Internal_energy_repulsive:           12.823105
+
+-----------------------------------
+Molecule: 89
+
+ Elapsed time for docking:	0.113 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -18.088289
+               Continuous_vdw_energy:          -17.086334
+                Continuous_es_energy:           -1.001955
+           Internal_energy_repulsive:            9.738752
+
+-----------------------------------
+Molecule: 89
+
+ Elapsed time for docking:	0.132 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -18.017509
+               Continuous_vdw_energy:          -17.364349
+                Continuous_es_energy:           -0.653159
+           Internal_energy_repulsive:            9.739676
+
+-----------------------------------
+Molecule: 89
+
+ Elapsed time for docking:	0.111 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -16.247171
+               Continuous_vdw_energy:          -15.783336
+                Continuous_es_energy:           -0.463836
+           Internal_energy_repulsive:            9.738973
+
+-----------------------------------
+Molecule: 97
+
+ Elapsed time for docking:	0.965 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -51.815384
+               Continuous_vdw_energy:          -46.351112
+                Continuous_es_energy:           -5.464272
+           Internal_energy_repulsive:            8.968939
+
+-----------------------------------
+Molecule: 97
+
+ Elapsed time for docking:	0.757 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -48.026421
+               Continuous_vdw_energy:          -43.876358
+                Continuous_es_energy:           -4.150061
+           Internal_energy_repulsive:            6.518469
+
+-----------------------------------
+Molecule: 97
+
+ Elapsed time for docking:	0.757 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -48.313087
+               Continuous_vdw_energy:          -43.796158
+                Continuous_es_energy:           -4.516929
+           Internal_energy_repulsive:            6.830631
+
+-----------------------------------
+Molecule: 100
+
+ Elapsed time for docking:	0.278 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.150013
+               Continuous_vdw_energy:          -33.252708
+                Continuous_es_energy:           -0.897305
+           Internal_energy_repulsive:           11.442436
+
+-----------------------------------
+Molecule: 100
+
+ Elapsed time for docking:	0.290 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.845867
+               Continuous_vdw_energy:          -32.457111
+                Continuous_es_energy:           -1.388754
+           Internal_energy_repulsive:           13.334899
+
+-----------------------------------
+Molecule: 100
+
+ Elapsed time for docking:	0.523 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.989418
+               Continuous_vdw_energy:          -33.573982
+                Continuous_es_energy:           -0.415435
+           Internal_energy_repulsive:           11.755895
+
+-----------------------------------
+Molecule: 101
+
+ Elapsed time for docking:	0.063 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.121923
+               Continuous_vdw_energy:          -27.074266
+                Continuous_es_energy:           -0.047657
+           Internal_energy_repulsive:            0.399933
+
+-----------------------------------
+Molecule: 101
+
+ Elapsed time for docking:	0.076 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.972858
+               Continuous_vdw_energy:          -26.864334
+                Continuous_es_energy:           -0.108525
+           Internal_energy_repulsive:            0.399962
+
+-----------------------------------
+Molecule: 101
+
+ Elapsed time for docking:	0.057 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.754093
+               Continuous_vdw_energy:          -27.010832
+                Continuous_es_energy:            0.256739
+           Internal_energy_repulsive:            0.399909
+
+-----------------------------------
+Molecule: 103
+
+ Elapsed time for docking:	1.331 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -42.655136
+               Continuous_vdw_energy:          -37.350323
+                Continuous_es_energy:           -5.304814
+           Internal_energy_repulsive:           11.476864
+
+-----------------------------------
+Molecule: 103
+
+ Elapsed time for docking:	1.445 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -41.390865
+               Continuous_vdw_energy:          -36.438206
+                Continuous_es_energy:           -4.952658
+           Internal_energy_repulsive:           11.060804
+
+-----------------------------------
+Molecule: 103
+
+ Elapsed time for docking:	0.761 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.604065
+               Continuous_vdw_energy:          -36.210911
+                Continuous_es_energy:           -2.393153
+           Internal_energy_repulsive:            8.569017
+
+-----------------------------------
+Molecule: 104
+
+ Elapsed time for docking:	0.122 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.429377
+               Continuous_vdw_energy:          -24.497398
+                Continuous_es_energy:            0.068021
+           Internal_energy_repulsive:           10.378322
+
+-----------------------------------
+Molecule: 104
+
+ Elapsed time for docking:	0.202 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.596634
+               Continuous_vdw_energy:          -25.525297
+                Continuous_es_energy:           -2.071337
+           Internal_energy_repulsive:           10.378531
+
+-----------------------------------
+Molecule: 104
+
+ Elapsed time for docking:	0.134 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.421015
+               Continuous_vdw_energy:          -24.832787
+                Continuous_es_energy:           -0.588229
+           Internal_energy_repulsive:           10.378970
+
+-----------------------------------
+Molecule: 105
+
+ Elapsed time for docking:	0.138 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.693932
+               Continuous_vdw_energy:          -28.950840
+                Continuous_es_energy:           -0.743092
+           Internal_energy_repulsive:            6.490185
+
+-----------------------------------
+Molecule: 105
+
+ Elapsed time for docking:	0.166 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.824379
+               Continuous_vdw_energy:          -29.166958
+                Continuous_es_energy:           -0.657422
+           Internal_energy_repulsive:            6.474649
+
+-----------------------------------
+Molecule: 105
+
+ Elapsed time for docking:	0.166 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.063137
+               Continuous_vdw_energy:          -28.768579
+                Continuous_es_energy:           -0.294558
+           Internal_energy_repulsive:           73.906586
+
+-----------------------------------
+Molecule: 106
+
+ Elapsed time for docking:	0.554 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.115318
+               Continuous_vdw_energy:          -36.418808
+                Continuous_es_energy:           -1.696509
+           Internal_energy_repulsive:           15.106143
+
+-----------------------------------
+Molecule: 106
+
+ Elapsed time for docking:	0.738 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.227104
+               Continuous_vdw_energy:          -35.695271
+                Continuous_es_energy:           -2.531832
+           Internal_energy_repulsive:           14.340243
+
+-----------------------------------
+Molecule: 106
+
+ Elapsed time for docking:	0.724 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -37.470001
+               Continuous_vdw_energy:          -34.959869
+                Continuous_es_energy:           -2.510133
+           Internal_energy_repulsive:           13.849697
+
+-----------------------------------
+Molecule: 110
+
+ Elapsed time for docking:	0.631 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -43.924614
+               Continuous_vdw_energy:          -39.196110
+                Continuous_es_energy:           -4.728503
+           Internal_energy_repulsive:            9.169282
+
+-----------------------------------
+Molecule: 110
+
+ Elapsed time for docking:	0.695 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -43.355625
+               Continuous_vdw_energy:          -39.330975
+                Continuous_es_energy:           -4.024649
+           Internal_energy_repulsive:            9.146455
+
+-----------------------------------
+Molecule: 110
+
+ Elapsed time for docking:	0.600 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -43.518082
+               Continuous_vdw_energy:          -39.912514
+                Continuous_es_energy:           -3.605568
+           Internal_energy_repulsive:            8.729701
+
+-----------------------------------
+Molecule: 111
+
+ Elapsed time for docking:	0.213 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.017088
+               Continuous_vdw_energy:          -21.708857
+                Continuous_es_energy:           -6.308231
+           Internal_energy_repulsive:            5.449795
+
+-----------------------------------
+Molecule: 111
+
+ Elapsed time for docking:	0.166 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.237268
+               Continuous_vdw_energy:          -23.202154
+                Continuous_es_energy:           -5.035114
+           Internal_energy_repulsive:            3.324963
+
+-----------------------------------
+Molecule: 111
+
+ Elapsed time for docking:	0.177 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.322819
+               Continuous_vdw_energy:          -26.040003
+                Continuous_es_energy:           -1.282816
+           Internal_energy_repulsive:            6.088108
+
+-----------------------------------
+Molecule: 112
+
+ Elapsed time for docking:	0.344 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.843796
+               Continuous_vdw_energy:          -30.419361
+                Continuous_es_energy:           -3.424433
+           Internal_energy_repulsive:            3.630662
+
+-----------------------------------
+Molecule: 112
+
+ Elapsed time for docking:	0.317 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.024860
+               Continuous_vdw_energy:          -30.264711
+                Continuous_es_energy:           -3.760150
+           Internal_energy_repulsive:            4.270582
+
+-----------------------------------
+Molecule: 112
+
+ Elapsed time for docking:	0.356 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.831169
+               Continuous_vdw_energy:          -30.329931
+                Continuous_es_energy:           -3.501240
+           Internal_energy_repulsive:            3.420306
+
+-----------------------------------
+Molecule: 113
+
+ Elapsed time for docking:	0.604 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -42.856438
+               Continuous_vdw_energy:          -39.264114
+                Continuous_es_energy:           -3.592323
+           Internal_energy_repulsive:            8.330402
+
+-----------------------------------
+Molecule: 113
+
+ Elapsed time for docking:	0.839 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -41.456169
+               Continuous_vdw_energy:          -36.745930
+                Continuous_es_energy:           -4.710240
+           Internal_energy_repulsive:            7.893641
+
+-----------------------------------
+Molecule: 113
+
+ Elapsed time for docking:	0.704 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -40.655991
+               Continuous_vdw_energy:          -37.430183
+                Continuous_es_energy:           -3.225808
+           Internal_energy_repulsive:            6.702080
+
+-----------------------------------
+Molecule: 114
+
+ Elapsed time for docking:	0.545 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -36.708405
+               Continuous_vdw_energy:          -35.527695
+                Continuous_es_energy:           -1.180710
+           Internal_energy_repulsive:            9.777177
+
+-----------------------------------
+Molecule: 114
+
+ Elapsed time for docking:	0.825 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -36.701668
+               Continuous_vdw_energy:          -34.980957
+                Continuous_es_energy:           -1.720711
+           Internal_energy_repulsive:            9.816876
+
+-----------------------------------
+Molecule: 114
+
+ Elapsed time for docking:	0.363 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -36.119457
+               Continuous_vdw_energy:          -33.934315
+                Continuous_es_energy:           -2.185143
+           Internal_energy_repulsive:           11.082023
+
+-----------------------------------
+Molecule: 115
+
+ Elapsed time for docking:	0.344 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -29.159733
+               Continuous_vdw_energy:          -28.102249
+                Continuous_es_energy:           -1.057485
+           Internal_energy_repulsive:            9.038578
+
+-----------------------------------
+Molecule: 115
+
+ Elapsed time for docking:	0.204 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.924797
+               Continuous_vdw_energy:          -25.982588
+                Continuous_es_energy:           -1.942209
+           Internal_energy_repulsive:            5.907878
+
+-----------------------------------
+Molecule: 115
+
+ Elapsed time for docking:	0.209 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.970543
+               Continuous_vdw_energy:          -24.622847
+                Continuous_es_energy:           -1.347696
+           Internal_energy_repulsive:            5.873983
+
+-----------------------------------
+Molecule: 116
+
+ Elapsed time for docking:	0.102 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.872196
+               Continuous_vdw_energy:          -29.427036
+                Continuous_es_energy:            0.554840
+           Internal_energy_repulsive:            4.247808
+
+-----------------------------------
+Molecule: 116
+
+ Elapsed time for docking:	0.090 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.801792
+               Continuous_vdw_energy:          -29.118275
+                Continuous_es_energy:            0.316483
+           Internal_energy_repulsive:            4.281652
+
+-----------------------------------
+Molecule: 116
+
+ Elapsed time for docking:	0.093 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.431404
+               Continuous_vdw_energy:          -28.485373
+                Continuous_es_energy:            0.053968
+           Internal_energy_repulsive:            4.249831
+
+-----------------------------------
+Molecule: 117
+
+ Elapsed time for docking:	0.235 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.342506
+               Continuous_vdw_energy:          -31.244698
+                Continuous_es_energy:           -2.097808
+           Internal_energy_repulsive:            4.306129
+
+-----------------------------------
+Molecule: 117
+
+ Elapsed time for docking:	0.214 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -31.356924
+               Continuous_vdw_energy:          -28.898397
+                Continuous_es_energy:           -2.458526
+           Internal_energy_repulsive:            5.230501
+
+-----------------------------------
+Molecule: 117
+
+ Elapsed time for docking:	0.496 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.946480
+               Continuous_vdw_energy:          -29.657822
+                Continuous_es_energy:           -3.288659
+           Internal_energy_repulsive:            3.155603
+
+-----------------------------------
+Molecule: 119
+
+ Elapsed time for docking:	0.219 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.958317
+               Continuous_vdw_energy:          -28.418236
+                Continuous_es_energy:           -4.540082
+           Internal_energy_repulsive:            4.526686
+
+-----------------------------------
+Molecule: 119
+
+ Elapsed time for docking:	0.205 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.608425
+               Continuous_vdw_energy:          -28.188686
+                Continuous_es_energy:           -4.419738
+           Internal_energy_repulsive:            3.800981
+
+-----------------------------------
+Molecule: 119
+
+ Elapsed time for docking:	0.192 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -32.099228
+               Continuous_vdw_energy:          -28.513922
+                Continuous_es_energy:           -3.585308
+           Internal_energy_repulsive:            3.811858
+
+-----------------------------------
+Molecule: 120
+
+ Elapsed time for docking:	0.884 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -44.832306
+               Continuous_vdw_energy:          -43.546921
+                Continuous_es_energy:           -1.285384
+           Internal_energy_repulsive:           40.934711
+
+-----------------------------------
+Molecule: 120
+
+ Elapsed time for docking:	1.656 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -44.774437
+               Continuous_vdw_energy:          -43.946182
+                Continuous_es_energy:           -0.828256
+           Internal_energy_repulsive:           34.628994
+
+-----------------------------------
+Molecule: 120
+
+ Elapsed time for docking:	1.488 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -41.656509
+               Continuous_vdw_energy:          -42.197155
+                Continuous_es_energy:            0.540646
+           Internal_energy_repulsive:           30.864399
+
+-----------------------------------
+Molecule: 121
+
+ Elapsed time for docking:	0.970 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -43.309853
+               Continuous_vdw_energy:          -39.822346
+                Continuous_es_energy:           -3.487506
+           Internal_energy_repulsive:            8.012604
+
+-----------------------------------
+Molecule: 121
+
+ Elapsed time for docking:	1.451 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -42.357216
+               Continuous_vdw_energy:          -39.809544
+                Continuous_es_energy:           -2.547674
+           Internal_energy_repulsive:           11.956808
+
+-----------------------------------
+Molecule: 121
+
+ Elapsed time for docking:	0.798 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -39.677845
+               Continuous_vdw_energy:          -37.359856
+                Continuous_es_energy:           -2.317989
+           Internal_energy_repulsive:            4.259936
+
+-----------------------------------
+Molecule: 122
+
+ Elapsed time for docking:	2.500 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -57.398014
+               Continuous_vdw_energy:          -52.634060
+                Continuous_es_energy:           -4.763954
+           Internal_energy_repulsive:           46.509598
+
+-----------------------------------
+Molecule: 122
+
+ Elapsed time for docking:	2.186 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -55.415211
+               Continuous_vdw_energy:          -51.453007
+                Continuous_es_energy:           -3.962204
+           Internal_energy_repulsive:           44.772041
+
+-----------------------------------
+Molecule: 122
+
+ Elapsed time for docking:	2.182 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -54.870239
+               Continuous_vdw_energy:          -51.460224
+                Continuous_es_energy:           -3.410016
+           Internal_energy_repulsive:           44.310818
+
+-----------------------------------
+Molecule: 123
+
+ Elapsed time for docking:	0.120 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -28.426943
+               Continuous_vdw_energy:          -26.990334
+                Continuous_es_energy:           -1.436609
+           Internal_energy_repulsive:            2.685947
+
+-----------------------------------
+Molecule: 123
+
+ Elapsed time for docking:	0.109 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.627575
+               Continuous_vdw_energy:          -27.068466
+                Continuous_es_energy:           -0.559108
+           Internal_energy_repulsive:            3.402129
+
+-----------------------------------
+Molecule: 123
+
+ Elapsed time for docking:	0.111 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.058899
+               Continuous_vdw_energy:          -26.813938
+                Continuous_es_energy:           -0.244961
+           Internal_energy_repulsive:            4.434333
+
+-----------------------------------
+Molecule: 125
+
+ Elapsed time for docking:	0.206 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.458797
+               Continuous_vdw_energy:          -29.591160
+                Continuous_es_energy:           -4.867636
+           Internal_energy_repulsive:            4.353083
+
+-----------------------------------
+Molecule: 125
+
+ Elapsed time for docking:	0.206 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.645493
+               Continuous_vdw_energy:          -30.008036
+                Continuous_es_energy:           -3.637455
+           Internal_energy_repulsive:            4.507489
+
+-----------------------------------
+Molecule: 125
+
+ Elapsed time for docking:	0.202 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.590767
+               Continuous_vdw_energy:          -30.018795
+                Continuous_es_energy:           -3.571974
+           Internal_energy_repulsive:            4.450458
+
+-----------------------------------
+Molecule: 137
+
+ Elapsed time for docking:	1.002 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -44.581738
+               Continuous_vdw_energy:          -41.898819
+                Continuous_es_energy:           -2.682920
+           Internal_energy_repulsive:           12.752629
+
+-----------------------------------
+Molecule: 137
+
+ Elapsed time for docking:	1.372 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -43.734089
+               Continuous_vdw_energy:          -42.367329
+                Continuous_es_energy:           -1.366759
+           Internal_energy_repulsive:           10.800133
+
+-----------------------------------
+Molecule: 137
+
+ Elapsed time for docking:	1.410 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -42.817963
+               Continuous_vdw_energy:          -41.347038
+                Continuous_es_energy:           -1.470925
+           Internal_energy_repulsive:           10.581734
+
+-----------------------------------
+Molecule: 138
+
+ Elapsed time for docking:	0.130 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.352327
+               Continuous_vdw_energy:          -18.826687
+                Continuous_es_energy:           -0.525641
+           Internal_energy_repulsive:            2.575251
+
+-----------------------------------
+Molecule: 138
+
+ Elapsed time for docking:	0.109 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -18.439167
+               Continuous_vdw_energy:          -17.925714
+                Continuous_es_energy:           -0.513453
+           Internal_energy_repulsive:            2.575303
+
+-----------------------------------
+Molecule: 138
+
+ Elapsed time for docking:	0.125 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -17.394646
+               Continuous_vdw_energy:          -17.144522
+                Continuous_es_energy:           -0.250125
+           Internal_energy_repulsive:            2.575444
+
+-----------------------------------
+Molecule: 139
+
+ Elapsed time for docking:	0.070 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -20.087725
+               Continuous_vdw_energy:          -17.898739
+                Continuous_es_energy:           -2.188987
+           Internal_energy_repulsive:            0.079667
+
+-----------------------------------
+Molecule: 139
+
+ Elapsed time for docking:	0.070 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.844166
+               Continuous_vdw_energy:          -18.008747
+                Continuous_es_energy:           -1.835419
+           Internal_energy_repulsive:            0.079675
+
+-----------------------------------
+Molecule: 139
+
+ Elapsed time for docking:	0.062 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -19.894730
+               Continuous_vdw_energy:          -18.206245
+                Continuous_es_energy:           -1.688484
+           Internal_energy_repulsive:            0.079680
+
+-----------------------------------
+Molecule: 140
+
+ Elapsed time for docking:	0.205 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.513058
+               Continuous_vdw_energy:          -22.148764
+                Continuous_es_energy:           -3.364294
+           Internal_energy_repulsive:            4.190303
+
+-----------------------------------
+Molecule: 140
+
+ Elapsed time for docking:	0.197 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.760386
+               Continuous_vdw_energy:          -21.992655
+                Continuous_es_energy:           -2.767730
+           Internal_energy_repulsive:            4.269684
+
+-----------------------------------
+Molecule: 140
+
+ Elapsed time for docking:	0.187 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.677372
+               Continuous_vdw_energy:          -22.084091
+                Continuous_es_energy:           -2.593280
+           Internal_energy_repulsive:            4.203835
+
+-----------------------------------
+Molecule: 141
+
+ Elapsed time for docking:	0.165 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.609474
+               Continuous_vdw_energy:          -21.835674
+                Continuous_es_energy:           -2.773800
+           Internal_energy_repulsive:            1.472861
+
+-----------------------------------
+Molecule: 141
+
+ Elapsed time for docking:	0.177 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.762745
+               Continuous_vdw_energy:          -21.337690
+                Continuous_es_energy:           -3.425054
+           Internal_energy_repulsive:            1.601328
+
+-----------------------------------
+Molecule: 141
+
+ Elapsed time for docking:	0.144 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.009735
+               Continuous_vdw_energy:          -21.177105
+                Continuous_es_energy:           -3.832630
+           Internal_energy_repulsive:            1.040912
+
+-----------------------------------
+Molecule: 142
+
+ Elapsed time for docking:	0.155 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.531071
+               Continuous_vdw_energy:          -22.372021
+                Continuous_es_energy:           -4.159050
+           Internal_energy_repulsive:            1.557389
+
+-----------------------------------
+Molecule: 142
+
+ Elapsed time for docking:	0.175 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.795830
+               Continuous_vdw_energy:          -22.601723
+                Continuous_es_energy:           -3.194107
+           Internal_energy_repulsive:            4.223746
+
+-----------------------------------
+Molecule: 142
+
+ Elapsed time for docking:	0.186 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -25.754053
+               Continuous_vdw_energy:          -21.850471
+                Continuous_es_energy:           -3.903581
+           Internal_energy_repulsive:            3.574725
+
+-----------------------------------
+Molecule: 145
+
+ Elapsed time for docking:	0.205 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -22.764063
+               Continuous_vdw_energy:          -21.620045
+                Continuous_es_energy:           -1.144017
+           Internal_energy_repulsive:            0.877395
+
+-----------------------------------
+Molecule: 145
+
+ Elapsed time for docking:	0.147 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.666687
+               Continuous_vdw_energy:          -22.101961
+                Continuous_es_energy:           -2.564725
+           Internal_energy_repulsive:            2.829006
+
+-----------------------------------
+Molecule: 145
+
+ Elapsed time for docking:	0.121 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -24.189575
+               Continuous_vdw_energy:          -23.164778
+                Continuous_es_energy:           -1.024797
+           Internal_energy_repulsive:            2.601018
+
+-----------------------------------
+Molecule: 146
+
+ Elapsed time for docking:	0.076 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.415749
+               Continuous_vdw_energy:          -26.739531
+                Continuous_es_energy:           -0.676217
+           Internal_energy_repulsive:            3.628102
+
+-----------------------------------
+Molecule: 146
+
+ Elapsed time for docking:	0.080 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.175747
+               Continuous_vdw_energy:          -26.531908
+                Continuous_es_energy:           -0.643838
+           Internal_energy_repulsive:            3.628122
+
+-----------------------------------
+Molecule: 146
+
+ Elapsed time for docking:	0.083 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -27.342302
+               Continuous_vdw_energy:          -26.658783
+                Continuous_es_energy:           -0.683519
+           Internal_energy_repulsive:            3.627862
+
+-----------------------------------
+Molecule: 147
+
+ Elapsed time for docking:	0.584 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -43.443771
+               Continuous_vdw_energy:          -41.860874
+                Continuous_es_energy:           -1.582897
+           Internal_energy_repulsive:            8.006420
+
+-----------------------------------
+Molecule: 147
+
+ Elapsed time for docking:	0.881 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -43.525341
+               Continuous_vdw_energy:          -41.371258
+                Continuous_es_energy:           -2.154082
+           Internal_energy_repulsive:            7.542642
+
+-----------------------------------
+Molecule: 147
+
+ Elapsed time for docking:	1.414 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -42.413380
+               Continuous_vdw_energy:          -41.109283
+                Continuous_es_energy:           -1.304095
+           Internal_energy_repulsive:            5.524269
+
+-----------------------------------
+Molecule: 148
+
+ Elapsed time for docking:	0.717 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -42.788132
+               Continuous_vdw_energy:          -38.970173
+                Continuous_es_energy:           -3.817960
+           Internal_energy_repulsive:           12.948855
+
+-----------------------------------
+Molecule: 148
+
+ Elapsed time for docking:	0.728 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -42.243092
+               Continuous_vdw_energy:          -38.748425
+                Continuous_es_energy:           -3.494667
+           Internal_energy_repulsive:           12.540401
+
+-----------------------------------
+Molecule: 148
+
+ Elapsed time for docking:	0.831 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -39.378029
+               Continuous_vdw_energy:          -34.918701
+                Continuous_es_energy:           -4.459327
+           Internal_energy_repulsive:           11.473335
+
+-----------------------------------
+Molecule: 150
+
+ Elapsed time for docking:	0.072 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.940418
+               Continuous_vdw_energy:          -26.790108
+                Continuous_es_energy:           -0.150311
+           Internal_energy_repulsive:            2.679200
+
+-----------------------------------
+Molecule: 150
+
+ Elapsed time for docking:	0.061 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.992010
+               Continuous_vdw_energy:          -26.695990
+                Continuous_es_energy:           -0.296021
+           Internal_energy_repulsive:            2.679807
+
+-----------------------------------
+Molecule: 150
+
+ Elapsed time for docking:	0.072 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -26.890589
+               Continuous_vdw_energy:          -26.715235
+                Continuous_es_energy:           -0.175353
+           Internal_energy_repulsive:            2.679587
+
+-----------------------------------
+Molecule: 151
+
+ Elapsed time for docking:	0.300 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.429150
+               Continuous_vdw_energy:          -33.049782
+                Continuous_es_energy:           -5.379369
+           Internal_energy_repulsive:            3.005653
+
+-----------------------------------
+Molecule: 151
+
+ Elapsed time for docking:	0.300 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -37.875755
+               Continuous_vdw_energy:          -33.133091
+                Continuous_es_energy:           -4.742665
+           Internal_energy_repulsive:            3.005397
+
+-----------------------------------
+Molecule: 151
+
+ Elapsed time for docking:	0.490 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -38.389191
+               Continuous_vdw_energy:          -33.081699
+                Continuous_es_energy:           -5.307491
+           Internal_energy_repulsive:            2.923033
+
+-----------------------------------
+Molecule: 152
+
+ Elapsed time for docking:	0.280 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.620750
+               Continuous_vdw_energy:          -30.299114
+                Continuous_es_energy:           -4.321638
+           Internal_energy_repulsive:            2.364668
+
+-----------------------------------
+Molecule: 152
+
+ Elapsed time for docking:	0.262 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -33.975403
+               Continuous_vdw_energy:          -29.383087
+                Continuous_es_energy:           -4.592314
+           Internal_energy_repulsive:            2.426952
+
+-----------------------------------
+Molecule: 152
+
+ Elapsed time for docking:	0.249 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                    Continuous_Score:          -34.061657
+               Continuous_vdw_energy:          -31.321764
+                Continuous_es_energy:           -2.739891
+           Internal_energy_repulsive:            2.357984
+
+
+264 Molecules Processed
+Total elapsed time:	97.770 seconds
