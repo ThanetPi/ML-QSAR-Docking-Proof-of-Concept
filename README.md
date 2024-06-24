@@ -9,8 +9,7 @@ Thanet Pitakbut (1,3), Jennifer Munkert (1,2), Wenhui Xi (3), Yanjie Wei (3), Gr
 
 (2) FAU NeW – Research Center New Bioactive Compounds, Nikolaus-Fiebiger-Str. 10, 91058 Erlangen, Germany
 
-(3) Shenzhen Key Laboratory of Intelligent Bioinformatics and Center for High-Performance Computing, Shenzhen Institute of Advanced Technology, Chinese Academy 
-    of Sciences, Shenzhen 518055, China
+(3) Shenzhen Key Laboratory of Intelligent Bioinformatics and Center for High-Performance Computing, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China
 
 
 This respiratory is licensed under CC BY-NC-ND 4.0
