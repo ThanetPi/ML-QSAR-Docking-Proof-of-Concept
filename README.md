@@ -3,3 +3,4 @@ This respiratory is used for depositing supplementary and relevant data, includi
 
 
 This respiratory is licensed under CC BY-NC-ND 4.0
+[![DOI](https://zenodo.org/badge/819014283.svg)](https://zenodo.org/doi/10.5281/zenodo.13378560)
